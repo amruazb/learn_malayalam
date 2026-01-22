@@ -270,33 +270,138 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  .dashboard {
+    padding: 15px;
+  }
+
+  .welcome-section {
+    padding: 25px 20px;
+  }
+
   .welcome-title {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 
   .welcome-subtitle {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
 
   .quick-stats {
     grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .stat-card {
+    padding: 15px;
+  }
+
+  .stat-number {
+    font-size: 1.8rem;
+  }
+
+  .stat-label {
+    font-size: 0.85rem;
+  }
+
+  .continue-section,
+  .modules-section,
+  .quick-links-section {
+    padding: 20px 15px;
+  }
+
+  .section-title {
+    font-size: 1.3rem;
   }
 
   .continue-card {
     flex-direction: column;
     text-align: center;
+    padding: 20px 15px;
+  }
+
+  .continue-info h3 {
+    font-size: 1.1rem;
+  }
+
+  .continue-info p {
+    font-size: 0.85rem;
   }
 
   .continue-button {
     width: 100%;
+    font-size: 0.9rem;
   }
 
   .modules-grid {
     grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .module-card {
+    padding: 20px 15px;
+  }
+
+  .module-header h3 {
+    font-size: 1.1rem;
+  }
+
+  .module-header p {
+    font-size: 0.85rem;
   }
 
   .quick-links {
     grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .quick-link {
+    padding: 15px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .dashboard {
+    padding: 10px;
+  }
+
+  .welcome-section {
+    padding: 20px 15px;
+  }
+
+  .welcome-title {
+    font-size: 1.4rem;
+  }
+
+  .welcome-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .quick-stats {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .stat-card {
+    padding: 12px;
+  }
+
+  .stat-number {
+    font-size: 1.6rem;
+  }
+
+  .continue-section,
+  .modules-section,
+  .quick-links-section {
+    padding: 15px 10px;
+  }
+
+  .section-title {
+    font-size: 1.2rem;
+  }
+
+  .module-card {
+    padding: 15px 12px;
   }
 }
 

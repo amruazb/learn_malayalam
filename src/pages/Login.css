@@ -15,6 +15,36 @@
   width: 100%;
   max-width: 450px;
   animation: slideUp 0.5s ease-out;
+  position: relative;
+}
+
+.close-button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: transparent;
+  border: none;
+  font-size: 1.8rem;
+  color: #999;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.3s;
+  z-index: 10;
+}
+
+.close-button:hover {
+  background: #f5f5f5;
+  color: #333;
+  transform: rotate(90deg);
+}
+
+.close-button:active {
+  transform: rotate(90deg) scale(0.95);
 }
 
 @keyframes slideUp {
@@ -168,16 +198,92 @@
 
 /* Mobile responsive */
 @media (max-width: 768px) {
+  .login-page {
+    padding: 10px;
+  }
+
   .login-container {
     padding: 30px 20px;
+    border-radius: 15px;
+    max-width: 100%;
+  }
+
+  .close-button {
+    top: 10px;
+    right: 10px;
+    width: 35px;
+    height: 35px;
+    font-size: 1.5rem;
+  }
+
+  .login-header {
+    margin-bottom: 25px;
+    padding-top: 10px;
   }
 
   .login-header h1 {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
 
   .login-header p {
+    font-size: 0.95rem;
+  }
+
+  .login-form {
+    gap: 15px;
+  }
+
+  .form-group label {
+    font-size: 0.9rem;
+  }
+
+  .form-group input {
+    padding: 10px 14px;
+    font-size: 0.95rem;
+  }
+
+  .login-button {
+    padding: 12px 20px;
     font-size: 1rem;
+  }
+
+  .signup-link {
+    font-size: 0.9rem;
+  }
+
+  .error-message,
+  .success-message {
+    font-size: 0.85rem;
+    padding: 10px 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .login-page {
+    padding: 5px;
+  }
+
+  .login-container {
+    padding: 25px 15px;
+    border-radius: 12px;
+  }
+
+  .login-header h1 {
+    font-size: 1.3rem;
+  }
+
+  .login-header p {
+    font-size: 0.9rem;
+  }
+
+  .form-group input {
+    padding: 9px 12px;
+    font-size: 0.9rem;
+  }
+
+  .login-button {
+    padding: 11px 18px;
+    font-size: 0.95rem;
   }
 }
 

@@ -66,6 +66,13 @@ function Login() {
   return (
     <div className="login-page">
       <div className="login-container">
+        <button
+          className="close-button"
+          onClick={() => navigate('/')}
+          aria-label="Close"
+        >
+          ✕
+        </button>
         <div className="login-header">
           <h1>🇮🇳 Learn Malayalam</h1>
           <p>{showForgotPassword ? 'Reset Your Password' : 'Welcome Back!'}</p>

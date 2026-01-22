@@ -172,16 +172,112 @@
 }
 
 @media (max-width: 768px) {
+  .lesson-page {
+    padding: 15px;
+  }
+
+  .lesson-header {
+    padding: 25px;
+  }
+
   .lesson-header h1 {
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
-  
+
+  .lesson-header p {
+    font-size: 0.95rem;
+  }
+
+  .lessons-section h2 {
+    font-size: 1.3rem;
+  }
+
+  .section-description {
+    font-size: 0.9rem;
+  }
+
+  .start-test-btn {
+    font-size: 1rem;
+    padding: 14px 28px;
+  }
+
+  .back-btn {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+
   .score-number {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
-  
+
+  .score-label {
+    font-size: 0.9rem;
+  }
+
+  .result-details {
+    font-size: 0.95rem;
+  }
+
+  .result-message {
+    font-size: 0.9rem;
+  }
+
   .result-actions {
     flex-direction: column;
+    gap: 10px;
+  }
+
+  .result-actions button,
+  .result-actions a {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .lesson-page {
+    padding: 10px;
+  }
+
+  .lesson-header {
+    padding: 20px 15px;
+  }
+
+  .lesson-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .lesson-header p {
+    font-size: 0.85rem;
+  }
+
+  .lessons-section {
+    padding: 15px;
+  }
+
+  .lessons-section h2 {
+    font-size: 1.2rem;
+  }
+
+  .section-description {
+    font-size: 0.85rem;
+  }
+
+  .test-section {
+    padding: 15px;
+  }
+
+  .start-test-btn {
+    font-size: 0.95rem;
+    padding: 12px 24px;
+  }
+
+  .score-number {
+    font-size: 2rem;
+  }
+
+  .result-card {
+    padding: 20px 15px;
   }
 }
 

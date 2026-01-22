@@ -180,24 +180,103 @@
 }
 
 @media (max-width: 768px) {
+  .conversations-page {
+    padding: 15px;
+  }
+
   .conversations-header {
-    padding: 25px;
+    padding: 25px 20px;
   }
 
   .conversations-header h1 {
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
 
   .conversations-header p {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
 
   .lessons-grid {
     grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .lesson-card {
+    padding: 25px 20px;
+  }
+
+  .lesson-title {
+    font-size: 1.3rem;
+  }
+
+  .lesson-description {
+    font-size: 0.9rem;
   }
 
   .conversations-info {
     grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .info-card {
+    padding: 25px 20px;
+  }
+
+  .info-card h3 {
+    font-size: 1.2rem;
+  }
+
+  .info-card p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .conversations-page {
+    padding: 10px;
+  }
+
+  .conversations-header {
+    padding: 20px 15px;
+  }
+
+  .conversations-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .conversations-header p {
+    font-size: 0.85rem;
+  }
+
+  .lesson-card {
+    padding: 20px 15px;
+  }
+
+  .lesson-icon {
+    width: 60px;
+    height: 60px;
+    font-size: 1.75rem;
+  }
+
+  .lesson-title {
+    font-size: 1.2rem;
+  }
+
+  .lesson-description {
+    font-size: 0.85rem;
+  }
+
+  .coming-soon-badge {
+    font-size: 0.7rem;
+    padding: 5px 10px;
+  }
+
+  .info-card {
+    padding: 20px 15px;
+  }
+
+  .info-icon {
+    font-size: 2rem;
   }
 }
 

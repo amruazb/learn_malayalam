@@ -146,24 +146,90 @@
 }
 
 @media (max-width: 768px) {
+  .basics-page {
+    padding: 15px;
+  }
+
   .basics-header {
-    padding: 25px;
+    padding: 25px 20px;
   }
 
   .basics-header h1 {
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
 
   .basics-header p {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
 
   .lessons-grid {
     grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .lesson-card {
+    padding: 25px 20px;
+  }
+
+  .lesson-title {
+    font-size: 1.3rem;
+  }
+
+  .lesson-description {
+    font-size: 0.9rem;
   }
 
   .basics-info {
     grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .info-card {
+    padding: 25px 20px;
+  }
+
+  .info-card h3 {
+    font-size: 1.2rem;
+  }
+
+  .info-card p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .basics-page {
+    padding: 10px;
+  }
+
+  .basics-header {
+    padding: 20px 15px;
+  }
+
+  .basics-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .basics-header p {
+    font-size: 0.85rem;
+  }
+
+  .lesson-card {
+    padding: 20px 15px;
+  }
+
+  .lesson-icon {
+    width: 60px;
+    height: 60px;
+    font-size: 1.75rem;
+  }
+
+  .lesson-title {
+    font-size: 1.2rem;
+  }
+
+  .info-card {
+    padding: 20px 15px;
   }
 }
 
