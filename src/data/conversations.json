@@ -1,0 +1,281 @@
+{
+  "title": "Daily Conversations",
+  "lessons": [
+    {
+      "id": "conv-1",
+      "malayalam": "എവിടെയാ പോകുന്നത്?",
+      "transliteration": "evidēyā pōkunnath?",
+      "english": "Where are you going?",
+      "category": "daily-actions"
+    },
+    {
+      "id": "conv-2",
+      "malayalam": "ഞാൻ വീട്ടിലേക്കാ പോകുന്നത്",
+      "transliteration": "ñān vīṭṭilēkka pōkunnath",
+      "english": "I'm going home",
+      "category": "daily-actions"
+    },
+    {
+      "id": "conv-3",
+      "malayalam": "എന്താ ചെയ്യുന്നത്?",
+      "transliteration": "entā cheyyunnath?",
+      "english": "What are you doing?",
+      "category": "daily-actions"
+    },
+    {
+      "id": "conv-4",
+      "malayalam": "ഞാൻ ജോലി ചെയ്യുന്നു",
+      "transliteration": "ñān joli cheyyunnu",
+      "english": "I'm working",
+      "category": "daily-actions"
+    },
+    {
+      "id": "conv-5",
+      "malayalam": "കഴിച്ചോ?",
+      "transliteration": "kazhichō?",
+      "english": "Did you eat?",
+      "category": "food"
+    },
+    {
+      "id": "conv-6",
+      "malayalam": "ആ, കഴിച്ചു",
+      "transliteration": "ā, kazhichu",
+      "english": "Yes, I ate",
+      "category": "food"
+    },
+    {
+      "id": "conv-7",
+      "malayalam": "വിശക്കുനുണ്ടോ?",
+      "transliteration": "viśakkunundo?",
+      "english": "Are you hungry?",
+      "category": "food"
+    },
+    {
+      "id": "conv-8",
+      "malayalam": "എനിക്ക് വിശക്കുന്നു",
+      "transliteration": "enikku viśakkunnu",
+      "english": "I'm hungry",
+      "category": "food"
+    },
+    {
+      "id": "conv-9",
+      "malayalam": "ചായയോ കാപ്പിയോ?",
+      "transliteration": "chāyayo kāppiyo?",
+      "english": "Tea or coffee?",
+      "category": "food"
+    },
+    {
+      "id": "conv-10",
+      "malayalam": "വെള്ളം തരൂ",
+      "transliteration": "veḷḷam tharū",
+      "english": "Give me water",
+      "category": "requests"
+    },
+    {
+      "id": "conv-11",
+      "malayalam": "ദയവായി വരൂ",
+      "transliteration": "dayavāyi varū",
+      "english": "Please come",
+      "category": "requests"
+    },
+    {
+      "id": "conv-12",
+      "malayalam": "ഒന്ന് വരൂ",
+      "transliteration": "onnu varū",
+      "english": "Come here (casual)",
+      "category": "requests"
+    },
+    {
+      "id": "conv-13",
+      "malayalam": "കുറച്ച് കാത്തിരിക്കുക",
+      "transliteration": "kuṟachu kāthirikkuka",
+      "english": "Wait a little",
+      "category": "requests"
+    },
+    {
+      "id": "conv-14",
+      "malayalam": "എനിക്ക് മനസ്സിലായില്ല",
+      "transliteration": "enikku manassilāyilla",
+      "english": "I don't understand",
+      "category": "clarifying"
+    },
+    {
+      "id": "conv-15",
+      "malayalam": "പതുക്കെ പറയൂ",
+      "transliteration": "padhukkē parayū",
+      "english": "Speak slowly",
+      "category": "clarifying"
+    },
+    {
+      "id": "conv-16",
+      "malayalam": "വീണ്ടും പറയൂ",
+      "transliteration": "vīndum parayū",
+      "english": "Say again",
+      "category": "clarifying"
+    },
+    {
+      "id": "conv-17",
+      "malayalam": "അതെ",
+      "transliteration": "athe",
+      "english": "Yes",
+      "category": "common-words"
+    },
+    {
+      "id": "conv-18",
+      "malayalam": "ഇല്ല",
+      "transliteration": "illa",
+      "english": "No",
+      "category": "common-words"
+    },
+    {
+      "id": "conv-19",
+      "malayalam": "ശരി",
+      "transliteration": "śari",
+      "english": "Okay",
+      "category": "common-words"
+    },
+    {
+      "id": "conv-20",
+      "malayalam": "മതി",
+      "transliteration": "mati",
+      "english": "Enough",
+      "category": "common-words"
+    },
+    {
+      "id": "conv-21",
+      "malayalam": "വേണം",
+      "transliteration": "vēṇam",
+      "english": "Want",
+      "category": "common-words"
+    },
+    {
+      "id": "conv-22",
+      "malayalam": "വേണ്ട",
+      "transliteration": "vēṇṭa",
+      "english": "Don't want",
+      "category": "common-words"
+    },
+    {
+      "id": "conv-23",
+      "malayalam": "ചായ വേണോ?",
+      "transliteration": "chāya vēṇō?",
+      "english": "Want tea?",
+      "category": "common-phrases"
+    },
+    {
+      "id": "conv-24",
+      "malayalam": "ഞാൻ മലയാളം പഠിക്കുന്നു",
+      "transliteration": "ñān malayāḷam paṭhikkunnu",
+      "english": "I'm learning Malayalam",
+      "category": "common-phrases"
+    },
+    {
+      "id": "conv-25",
+      "malayalam": "എവിടെയാ?",
+      "transliteration": "evidēyā?",
+      "english": "Where is it?",
+      "category": "common-phrases"
+    },
+    {
+      "id": "conv-26",
+      "malayalam": "നന്ദി",
+      "transliteration": "nandi",
+      "english": "Thank you",
+      "category": "polite"
+    },
+    {
+      "id": "conv-27",
+      "malayalam": "പോയിട്ട് വരാം",
+      "transliteration": "pōyiṭṭu varām",
+      "english": "Bye (I'll go and come back)",
+      "category": "polite"
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "mcq-conv-1",
+      "question": "How do you say 'Yes' in Malayalam?",
+      "options": [
+        {"malayalam": "ഇല്ല", "transliteration": "illa"},
+        {"malayalam": "അതെ", "transliteration": "athe"},
+        {"malayalam": "ശരി", "transliteration": "śari"},
+        {"malayalam": "മതി", "transliteration": "mati"}
+      ],
+      "correct": 1,
+      "explanation": "അതെ (athe) means 'Yes'"
+    },
+    {
+      "id": "mcq-conv-2",
+      "question": "What does 'കഴിച്ചോ?' (kazhichō?) mean?",
+      "options": [
+        {"malayalam": "Are you hungry?", "transliteration": ""},
+        {"malayalam": "Did you eat?", "transliteration": ""},
+        {"malayalam": "Want tea?", "transliteration": ""},
+        {"malayalam": "Where are you going?", "transliteration": ""}
+      ],
+      "correct": 1,
+      "explanation": "കഴിച്ചോ? (kazhichō?) means 'Did you eat?'"
+    },
+    {
+      "id": "mcq-conv-3",
+      "question": "How do you say 'I don't understand'?",
+      "options": [
+        {"malayalam": "എനിക്ക് മനസ്സിലായില്ല", "transliteration": "enikku manassilāyilla"},
+        {"malayalam": "പതുക്കെ പറയൂ", "transliteration": "padhukkē parayū"},
+        {"malayalam": "വീണ്ടും പറയൂ", "transliteration": "vīndum parayū"},
+        {"malayalam": "എവിടെയാ?", "transliteration": "evidēyā?"}
+      ],
+      "correct": 0,
+      "explanation": "എനിക്ക് മനസ്സിലായില്ല (enikku manassilāyilla) means 'I don't understand'"
+    },
+    {
+      "id": "mcq-conv-4",
+      "question": "What does 'വേണം' (vēṇam) mean?",
+      "options": [
+        {"malayalam": "Don't want", "transliteration": ""},
+        {"malayalam": "Want", "transliteration": ""},
+        {"malayalam": "Enough", "transliteration": ""},
+        {"malayalam": "Okay", "transliteration": ""}
+      ],
+      "correct": 1,
+      "explanation": "വേണം (vēṇam) means 'Want'"
+    },
+    {
+      "id": "mcq-conv-5",
+      "question": "How do you ask 'Where are you going?'",
+      "options": [
+        {"malayalam": "എന്താ ചെയ്യുന്നത്?", "transliteration": "entā cheyyunnath?"},
+        {"malayalam": "എവിടെയാ പോകുന്നത്?", "transliteration": "evidēyā pōkunnath?"},
+        {"malayalam": "കഴിച്ചോ?", "transliteration": "kazhichō?"},
+        {"malayalam": "വിശക്കുനുണ്ടോ?", "transliteration": "viśakkunuṇṭō?"}
+      ],
+      "correct": 1,
+      "explanation": "എവിടെയാ പോകുന്നത്? (evidēyā pōkunnath?) means 'Where are you going?'"
+    },
+    {
+      "id": "mcq-conv-6",
+      "question": "What does 'പതുക്കെ പറയൂ' (padhukkē parayū) mean?",
+      "options": [
+        {"malayalam": "Say again", "transliteration": ""},
+        {"malayalam": "Speak slowly", "transliteration": ""},
+        {"malayalam": "I don't understand", "transliteration": ""},
+        {"malayalam": "Thank you", "transliteration": ""}
+      ],
+      "correct": 1,
+      "explanation": "പതുക്കെ പറയൂ (padhukkē parayū) means 'Speak slowly'"
+    },
+    {
+      "id": "mcq-conv-7",
+      "question": "How do you say 'Thank you'?",
+      "options": [
+        {"malayalam": "ശരി", "transliteration": "śari"},
+        {"malayalam": "നന്ദി", "transliteration": "nandi"},
+        {"malayalam": "മതി", "transliteration": "mati"},
+        {"malayalam": "അതെ", "transliteration": "athe"}
+      ],
+      "correct": 1,
+      "explanation": "നന്ദി (nandi) means 'Thank you'"
+    }
+  ]
+}
+

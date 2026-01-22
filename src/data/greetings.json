@@ -1,0 +1,131 @@
+{
+  "title": "Basic Greetings & Common Lines",
+  "lessons": [
+    {
+      "id": "greeting-1",
+      "malayalam": "നമസ്കാരം",
+      "transliteration": "namaskāram",
+      "english": "Hello (formal)",
+      "category": "greeting"
+    },
+    {
+      "id": "greeting-2",
+      "malayalam": "ഹായ്",
+      "transliteration": "hai",
+      "english": "Hi",
+      "category": "greeting"
+    },
+    {
+      "id": "greeting-3",
+      "malayalam": "സുഖമാണോ?",
+      "transliteration": "sukhamāṇo?",
+      "english": "How are you?",
+      "category": "greeting"
+    },
+    {
+      "id": "greeting-4",
+      "malayalam": "സുഖമാണ്",
+      "transliteration": "sukhamāṇu",
+      "english": "I am fine",
+      "category": "greeting"
+    },
+    {
+      "id": "greeting-5",
+      "malayalam": "എന്താ വിശേഷം?",
+      "transliteration": "entā viśēṣam?",
+      "english": "What's new?",
+      "category": "greeting"
+    },
+    {
+      "id": "greeting-6",
+      "malayalam": "നിന്റെ പേര് എന്താ?",
+      "transliteration": "ninte pēru entā?",
+      "english": "What is your name?",
+      "category": "introduction"
+    },
+    {
+      "id": "greeting-7",
+      "malayalam": "എന്റെ പേര് ... ആണ്",
+      "transliteration": "ente pēru ... āṇu",
+      "english": "My name is ...",
+      "category": "introduction"
+    },
+    {
+      "id": "greeting-8",
+      "malayalam": "നീ എവിടുന്നാ?",
+      "transliteration": "nī evidunnā?",
+      "english": "Where are you from?",
+      "category": "introduction"
+    },
+    {
+      "id": "greeting-9",
+      "malayalam": "ഞാൻ കേരളത്തിൽ നിന്നാണ്",
+      "transliteration": "ñān kēraḷattil ninnāṇu",
+      "english": "I am from Kerala",
+      "category": "introduction"
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "mcq-greeting-1",
+      "question": "How do you say 'Hello' formally in Malayalam?",
+      "options": [
+        {"malayalam": "ഹായ്", "transliteration": "hai"},
+        {"malayalam": "നമസ്കാരം", "transliteration": "namaskāram"},
+        {"malayalam": "സുഖമാണോ?", "transliteration": "sukhamāṇo?"},
+        {"malayalam": "എന്താ വിശേഷം?", "transliteration": "entā viśēṣam?"}
+      ],
+      "correct": 1,
+      "explanation": "നമസ്കാരം (namaskāram) is the formal way to say hello"
+    },
+    {
+      "id": "mcq-greeting-2",
+      "question": "What does 'സുഖമാണോ?' (sukhamāṇo?) mean?",
+      "options": [
+        {"malayalam": "Hello", "transliteration": ""},
+        {"malayalam": "How are you?", "transliteration": ""},
+        {"malayalam": "What's new?", "transliteration": ""},
+        {"malayalam": "Goodbye", "transliteration": ""}
+      ],
+      "correct": 1,
+      "explanation": "സുഖമാണോ? (sukhamāṇo?) means 'How are you?'"
+    },
+    {
+      "id": "mcq-greeting-3",
+      "question": "How do you respond to 'സുഖമാണോ?' (How are you?)",
+      "options": [
+        {"malayalam": "നമസ്കാരം", "transliteration": "namaskāram"},
+        {"malayalam": "സുഖമാണ്", "transliteration": "sukhamāṇu"},
+        {"malayalam": "ഹായ്", "transliteration": "hai"},
+        {"malayalam": "എന്താ വിശേഷം?", "transliteration": "entā viśēṣam?"}
+      ],
+      "correct": 1,
+      "explanation": "സുഖമാണ് (sukhamāṇu) means 'I am fine'"
+    },
+    {
+      "id": "mcq-greeting-4",
+      "question": "What does 'നിന്റെ പേര് എന്താ?' (ninte pēru entā?) mean?",
+      "options": [
+        {"malayalam": "How are you?", "transliteration": ""},
+        {"malayalam": "Where are you from?", "transliteration": ""},
+        {"malayalam": "What is your name?", "transliteration": ""},
+        {"malayalam": "What's new?", "transliteration": ""}
+      ],
+      "correct": 2,
+      "explanation": "നിന്റെ പേര് എന്താ? means 'What is your name?'"
+    },
+    {
+      "id": "mcq-greeting-5",
+      "question": "How do you say 'Hi' casually?",
+      "options": [
+        {"malayalam": "നമസ്കാരം", "transliteration": "namaskāram"},
+        {"malayalam": "സുഖമാണ്", "transliteration": "sukhamāṇu"},
+        {"malayalam": "ഹായ്", "transliteration": "hai"},
+        {"malayalam": "എന്താ വിശേഷം?", "transliteration": "entā viśēṣam?"}
+      ],
+      "correct": 2,
+      "explanation": "ഹായ് (hai) is the casual way to say 'Hi'"
+    }
+  ]
+}
+

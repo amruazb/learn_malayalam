@@ -1,0 +1,172 @@
+{
+  "title": "Tenses (Present, Past, Future)",
+  "lessons": [
+    {
+      "id": "present-1",
+      "malayalam": "ഞാൻ വരുന്നു",
+      "transliteration": "ñān varunnu",
+      "english": "I'm coming",
+      "category": "present",
+      "tense": "present"
+    },
+    {
+      "id": "present-2",
+      "malayalam": "ഞാൻ പോകുന്നു",
+      "transliteration": "ñān pōkunnu",
+      "english": "I'm going",
+      "category": "present",
+      "tense": "present"
+    },
+    {
+      "id": "present-3",
+      "malayalam": "അവൻ കഴിക്കുന്നു",
+      "transliteration": "avaṉ kazhikkunnu",
+      "english": "He's eating",
+      "category": "present",
+      "tense": "present"
+    },
+    {
+      "id": "present-4",
+      "malayalam": "ഞാൻ ജോലി ചെയ്യുന്നു",
+      "transliteration": "ñān joli cheyyunnu",
+      "english": "I'm working",
+      "category": "present",
+      "tense": "present"
+    },
+    {
+      "id": "present-casual-1",
+      "malayalam": "ഞാൻ വരാ",
+      "transliteration": "ñān varā",
+      "english": "I'm coming (casual)",
+      "category": "present-casual",
+      "tense": "present"
+    },
+    {
+      "id": "present-casual-2",
+      "malayalam": "ഞാൻ പോവാ",
+      "transliteration": "ñān pōvā",
+      "english": "I'm going (casual)",
+      "category": "present-casual",
+      "tense": "present"
+    },
+    {
+      "id": "past-1",
+      "malayalam": "ഞാൻ പോയി",
+      "transliteration": "ñān pōyi",
+      "english": "I went",
+      "category": "past",
+      "tense": "past"
+    },
+    {
+      "id": "past-2",
+      "malayalam": "അവൻ വന്നു",
+      "transliteration": "avaṉ vannu",
+      "english": "He came",
+      "category": "past",
+      "tense": "past"
+    },
+    {
+      "id": "past-3",
+      "malayalam": "അവൾ കഴിച്ചു",
+      "transliteration": "avaḷ kazhichu",
+      "english": "She ate",
+      "category": "past",
+      "tense": "past"
+    },
+    {
+      "id": "past-4",
+      "malayalam": "ഞങ്ങൾ കണ്ടു",
+      "transliteration": "ñaṅṅaḷ kaṇṭu",
+      "english": "We saw",
+      "category": "past",
+      "tense": "past"
+    },
+    {
+      "id": "future-1",
+      "malayalam": "ഞാൻ വരും",
+      "transliteration": "ñān varum",
+      "english": "I'll come",
+      "category": "future",
+      "tense": "future"
+    },
+    {
+      "id": "future-2",
+      "malayalam": "നീ പോകും",
+      "transliteration": "nī pōkum",
+      "english": "You'll go",
+      "category": "future",
+      "tense": "future"
+    },
+    {
+      "id": "future-3",
+      "malayalam": "അവൾ പറയും",
+      "transliteration": "avaḷ paṟayum",
+      "english": "She'll say",
+      "category": "future",
+      "tense": "future"
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "mcq-tense-1",
+      "question": "What does 'ഞാൻ വരുന്നു' (ñān varunnu) mean?",
+      "options": [
+        {"malayalam": "I went", "transliteration": ""},
+        {"malayalam": "I'm coming", "transliteration": ""},
+        {"malayalam": "I'll come", "transliteration": ""},
+        {"malayalam": "I'm going", "transliteration": ""}
+      ],
+      "correct": 1,
+      "explanation": "ഞാൻ വരുന്നു (ñān varunnu) means 'I'm coming' (present tense)"
+    },
+    {
+      "id": "mcq-tense-2",
+      "question": "Which is the past tense of 'go'?",
+      "options": [
+        {"malayalam": "പോകുന്നു", "transliteration": "pōkunnu"},
+        {"malayalam": "പോയി", "transliteration": "pōyi"},
+        {"malayalam": "പോകും", "transliteration": "pōkum"},
+        {"malayalam": "പോവാ", "transliteration": "pōvā"}
+      ],
+      "correct": 1,
+      "explanation": "പോയി (pōyi) means 'went' (past tense)"
+    },
+    {
+      "id": "mcq-tense-3",
+      "question": "What does 'അവൾ കഴിച്ചു' (avaḷ kazhichu) mean?",
+      "options": [
+        {"malayalam": "She eats", "transliteration": ""},
+        {"malayalam": "She ate", "transliteration": ""},
+        {"malayalam": "She will eat", "transliteration": ""},
+        {"malayalam": "She is eating", "transliteration": ""}
+      ],
+      "correct": 1,
+      "explanation": "അവൾ കഴിച്ചു (avaḷ kazhichu) means 'She ate' (past tense)"
+    },
+    {
+      "id": "mcq-tense-4",
+      "question": "How do you say 'I'll come' in Malayalam?",
+      "options": [
+        {"malayalam": "ഞാൻ വരുന്നു", "transliteration": "ñān varunnu"},
+        {"malayalam": "ഞാൻ വന്നു", "transliteration": "ñān vannu"},
+        {"malayalam": "ഞാൻ വരും", "transliteration": "ñān varum"},
+        {"malayalam": "ഞാൻ വരാ", "transliteration": "ñān varā"}
+      ],
+      "correct": 2,
+      "explanation": "ഞാൻ വരും (ñān varum) means 'I'll come' (future tense)"
+    },
+    {
+      "id": "mcq-tense-5",
+      "question": "What is the casual way to say 'I'm coming'?",
+      "options": [
+        {"malayalam": "ഞാൻ വരുന്നു", "transliteration": "ñān varunnu"},
+        {"malayalam": "ഞാൻ വരാ", "transliteration": "ñān varā"},
+        {"malayalam": "ഞാൻ വന്നു", "transliteration": "ñān vannu"},
+        {"malayalam": "ഞാൻ വരും", "transliteration": "ñān varum"}
+      ],
+      "correct": 1,
+      "explanation": "ഞാൻ വരാ (ñān varā) is the casual form of 'I'm coming'"
+    }
+  ]
+}
+

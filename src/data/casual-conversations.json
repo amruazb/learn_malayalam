@@ -1,0 +1,140 @@
+{
+  "title": "Casual Conversations",
+  "lessons": [
+    {
+      "id": "casual-1",
+      "malayalam": "എന്താ വിശേഷം?",
+      "transliteration": "entā viśēṣam?",
+      "english": "What's up?",
+      "category": "greeting"
+    },
+    {
+      "id": "casual-2",
+      "malayalam": "എവിടെയാ പോകുന്നത്?",
+      "transliteration": "evidēyā pōkunnath?",
+      "english": "Where are you going?",
+      "category": "daily"
+    },
+    {
+      "id": "casual-3",
+      "malayalam": "ഞാൻ വീട്ടിലേക്കാ പോകുന്നത്",
+      "transliteration": "ñān vīṭṭilēkka pōkunnath",
+      "english": "I'm going home",
+      "category": "daily"
+    },
+    {
+      "id": "casual-4",
+      "malayalam": "എന്താ ചെയ്യുന്നത്?",
+      "transliteration": "entā cheyyunnath?",
+      "english": "What are you doing?",
+      "category": "daily"
+    },
+    {
+      "id": "casual-5",
+      "malayalam": "ഒന്നുമില്ല",
+      "transliteration": "onnumilla",
+      "english": "Nothing much",
+      "category": "response"
+    },
+    {
+      "id": "casual-6",
+      "malayalam": "കഴിച്ചോ?",
+      "transliteration": "kazhichō?",
+      "english": "Did you eat?",
+      "category": "food"
+    },
+    {
+      "id": "casual-7",
+      "malayalam": "ആ, കഴിച്ചു",
+      "transliteration": "ā, kazhichu",
+      "english": "Yes, I ate",
+      "category": "food"
+    },
+    {
+      "id": "casual-8",
+      "malayalam": "വിശക്കുനുണ്ടോ?",
+      "transliteration": "viśakkunundo?",
+      "english": "Are you hungry?",
+      "category": "food"
+    },
+    {
+      "id": "casual-9",
+      "malayalam": "എനിക്ക് വിശക്കുന്നു",
+      "transliteration": "enikku viśakkunnu",
+      "english": "I'm hungry",
+      "category": "food"
+    },
+    {
+      "id": "casual-10",
+      "malayalam": "ചായയോ കാപ്പിയോ?",
+      "transliteration": "chāyayo kāppiyo?",
+      "english": "Tea or coffee?",
+      "category": "food"
+    },
+    {
+      "id": "casual-11",
+      "malayalam": "ഒന്ന് വരൂ",
+      "transliteration": "onnu varū",
+      "english": "Come here",
+      "category": "request"
+    },
+    {
+      "id": "casual-12",
+      "malayalam": "പോയിട്ട് വരാം",
+      "transliteration": "pōyiṭṭu varām",
+      "english": "I'll go and come back (Bye)",
+      "category": "farewell"
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "mcq-casual-1",
+      "question": "How do you casually ask 'What's up?'",
+      "options": [
+        {"malayalam": "എന്താ വിശേഷം?", "transliteration": "entā viśēṣam?"},
+        {"malayalam": "സുഖമാണോ?", "transliteration": "sukhamāṇo?"},
+        {"malayalam": "നമസ്കാരം", "transliteration": "namaskāram"},
+        {"malayalam": "എവിടെയാ?", "transliteration": "evidēyā?"}
+      ],
+      "correct": 0,
+      "explanation": "എന്താ വിശേഷം? (entā viśēṣam?) is a casual way to ask 'What's up?'"
+    },
+    {
+      "id": "mcq-casual-2",
+      "question": "What does 'കഴിച്ചോ?' (kazhichō?) mean?",
+      "options": [
+        {"malayalam": "Are you hungry?", "transliteration": ""},
+        {"malayalam": "Did you eat?", "transliteration": ""},
+        {"malayalam": "Want tea?", "transliteration": ""},
+        {"malayalam": "Where are you going?", "transliteration": ""}
+      ],
+      "correct": 1,
+      "explanation": "കഴിച്ചോ? (kazhichō?) means 'Did you eat?' - a common casual greeting"
+    },
+    {
+      "id": "mcq-casual-3",
+      "question": "How do you say 'I'm hungry' casually?",
+      "options": [
+        {"malayalam": "എനിക്ക് വിശക്കുന്നു", "transliteration": "enikku viśakkunnu"},
+        {"malayalam": "കഴിച്ചു", "transliteration": "kazhichu"},
+        {"malayalam": "വേണം", "transliteration": "vēṇam"},
+        {"malayalam": "ഒന്നുമില്ല", "transliteration": "onnumilla"}
+      ],
+      "correct": 0,
+      "explanation": "എനിക്ക് വിശക്കുന്നു (enikku viśakkunnu) means 'I'm hungry'"
+    },
+    {
+      "id": "mcq-casual-4",
+      "question": "What does 'ഒന്നുമില്ല' (onnumilla) mean?",
+      "options": [
+        {"malayalam": "Everything", "transliteration": ""},
+        {"malayalam": "Nothing much", "transliteration": ""},
+        {"malayalam": "Something", "transliteration": ""},
+        {"malayalam": "Anything", "transliteration": ""}
+      ],
+      "correct": 1,
+      "explanation": "ഒന്നുമില്ല (onnumilla) means 'Nothing much' - common response to 'What's up?'"
+    }
+  ]
+}
+

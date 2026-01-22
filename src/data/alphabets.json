@@ -1,0 +1,479 @@
+{
+  "title": "Malayalam Alphabets",
+  "lessons": [
+    {
+      "id": "vowel-1",
+      "malayalam": "അ",
+      "transliteration": "a",
+      "english": "a (as in 'about')",
+      "category": "vowel"
+    },
+    {
+      "id": "vowel-2",
+      "malayalam": "ആ",
+      "transliteration": "ā",
+      "english": "aa (as in 'father')",
+      "category": "vowel"
+    },
+    {
+      "id": "vowel-3",
+      "malayalam": "ഇ",
+      "transliteration": "i",
+      "english": "i (as in 'sit')",
+      "category": "vowel"
+    },
+    {
+      "id": "vowel-4",
+      "malayalam": "ഈ",
+      "transliteration": "ī",
+      "english": "ee (as in 'see')",
+      "category": "vowel"
+    },
+    {
+      "id": "vowel-5",
+      "malayalam": "ഉ",
+      "transliteration": "u",
+      "english": "u (as in 'put')",
+      "category": "vowel"
+    },
+    {
+      "id": "vowel-6",
+      "malayalam": "ഊ",
+      "transliteration": "ū",
+      "english": "oo (as in 'food')",
+      "category": "vowel"
+    },
+    {
+      "id": "vowel-7",
+      "malayalam": "ഋ",
+      "transliteration": "r̥",
+      "english": "ri (as in 'Krishna')",
+      "category": "vowel"
+    },
+    {
+      "id": "vowel-8",
+      "malayalam": "എ",
+      "transliteration": "e",
+      "english": "e (as in 'bed')",
+      "category": "vowel"
+    },
+    {
+      "id": "vowel-9",
+      "malayalam": "ഏ",
+      "transliteration": "ē",
+      "english": "ay (as in 'day')",
+      "category": "vowel"
+    },
+    {
+      "id": "vowel-10",
+      "malayalam": "ഐ",
+      "transliteration": "ai",
+      "english": "ai (as in 'aisle')",
+      "category": "vowel"
+    },
+    {
+      "id": "vowel-11",
+      "malayalam": "ഒ",
+      "transliteration": "o",
+      "english": "o (as in 'go')",
+      "category": "vowel"
+    },
+    {
+      "id": "vowel-12",
+      "malayalam": "ഓ",
+      "transliteration": "ō",
+      "english": "o (as in 'more')",
+      "category": "vowel"
+    },
+    {
+      "id": "vowel-13",
+      "malayalam": "ഔ",
+      "transliteration": "au",
+      "english": "au (as in 'house')",
+      "category": "vowel"
+    },
+    {
+      "id": "vowel-14",
+      "malayalam": "അം",
+      "transliteration": "aṃ",
+      "english": "am (anusvara)",
+      "category": "vowel"
+    },
+    {
+      "id": "vowel-15",
+      "malayalam": "അഃ",
+      "transliteration": "aḥ",
+      "english": "ah (visarga)",
+      "category": "vowel"
+    },
+    {
+      "id": "consonant-1",
+      "malayalam": "ക",
+      "transliteration": "ka",
+      "english": "ka",
+      "category": "consonant"
+    },
+    {
+      "id": "consonant-2",
+      "malayalam": "ഖ",
+      "transliteration": "kha",
+      "english": "kha",
+      "category": "consonant"
+    },
+    {
+      "id": "consonant-3",
+      "malayalam": "ഗ",
+      "transliteration": "ga",
+      "english": "ga",
+      "category": "consonant"
+    },
+    {
+      "id": "consonant-4",
+      "malayalam": "ഘ",
+      "transliteration": "gha",
+      "english": "gha",
+      "category": "consonant"
+    },
+    {
+      "id": "consonant-5",
+      "malayalam": "ങ",
+      "transliteration": "ṅa",
+      "english": "nga",
+      "category": "consonant"
+    },
+    {
+      "id": "consonant-6",
+      "malayalam": "ച",
+      "transliteration": "cha",
+      "english": "cha",
+      "category": "consonant"
+    },
+    {
+      "id": "consonant-7",
+      "malayalam": "ഛ",
+      "transliteration": "chha",
+      "english": "chha",
+      "category": "consonant"
+    },
+    {
+      "id": "consonant-8",
+      "malayalam": "ജ",
+      "transliteration": "ja",
+      "english": "ja",
+      "category": "consonant"
+    },
+    {
+      "id": "consonant-9",
+      "malayalam": "ഝ",
+      "transliteration": "jha",
+      "english": "jha",
+      "category": "consonant"
+    },
+    {
+      "id": "consonant-10",
+      "malayalam": "ഞ",
+      "transliteration": "ña",
+      "english": "nya",
+      "category": "consonant"
+    },
+    {
+      "id": "consonant-11",
+      "malayalam": "ട",
+      "transliteration": "ṭa",
+      "english": "ta (hard)",
+      "category": "consonant"
+    },
+    {
+      "id": "consonant-12",
+      "malayalam": "ഠ",
+      "transliteration": "ṭha",
+      "english": "tha (hard)",
+      "category": "consonant"
+    },
+    {
+      "id": "consonant-13",
+      "malayalam": "ഡ",
+      "transliteration": "ḍa",
+      "english": "da (hard)",
+      "category": "consonant"
+    },
+    {
+      "id": "consonant-14",
+      "malayalam": "ഢ",
+      "transliteration": "ḍha",
+      "english": "dha (hard)",
+      "category": "consonant"
+    },
+    {
+      "id": "consonant-15",
+      "malayalam": "ണ",
+      "transliteration": "ṇa",
+      "english": "na (hard)",
+      "category": "consonant"
+    },
+    {
+      "id": "consonant-16",
+      "malayalam": "ത",
+      "transliteration": "tha",
+      "english": "tha (soft)",
+      "category": "consonant"
+    },
+    {
+      "id": "consonant-17",
+      "malayalam": "ഥ",
+      "transliteration": "thha",
+      "english": "thha",
+      "category": "consonant"
+    },
+    {
+      "id": "consonant-18",
+      "malayalam": "ദ",
+      "transliteration": "da",
+      "english": "da (soft)",
+      "category": "consonant"
+    },
+    {
+      "id": "consonant-19",
+      "malayalam": "ധ",
+      "transliteration": "dha",
+      "english": "dha (soft)",
+      "category": "consonant"
+    },
+    {
+      "id": "consonant-20",
+      "malayalam": "ന",
+      "transliteration": "na",
+      "english": "na (soft)",
+      "category": "consonant"
+    },
+    {
+      "id": "consonant-21",
+      "malayalam": "പ",
+      "transliteration": "pa",
+      "english": "pa",
+      "category": "consonant"
+    },
+    {
+      "id": "consonant-22",
+      "malayalam": "ഫ",
+      "transliteration": "pha",
+      "english": "pha",
+      "category": "consonant"
+    },
+    {
+      "id": "consonant-23",
+      "malayalam": "ബ",
+      "transliteration": "ba",
+      "english": "ba",
+      "category": "consonant"
+    },
+    {
+      "id": "consonant-24",
+      "malayalam": "ഭ",
+      "transliteration": "bha",
+      "english": "bha",
+      "category": "consonant"
+    },
+    {
+      "id": "consonant-25",
+      "malayalam": "മ",
+      "transliteration": "ma",
+      "english": "ma",
+      "category": "consonant"
+    },
+    {
+      "id": "consonant-26",
+      "malayalam": "യ",
+      "transliteration": "ya",
+      "english": "ya",
+      "category": "consonant"
+    },
+    {
+      "id": "consonant-27",
+      "malayalam": "ര",
+      "transliteration": "ra",
+      "english": "ra",
+      "category": "consonant"
+    },
+    {
+      "id": "consonant-28",
+      "malayalam": "ല",
+      "transliteration": "la",
+      "english": "la",
+      "category": "consonant"
+    },
+    {
+      "id": "consonant-29",
+      "malayalam": "വ",
+      "transliteration": "va",
+      "english": "va",
+      "category": "consonant"
+    },
+    {
+      "id": "consonant-30",
+      "malayalam": "ശ",
+      "transliteration": "śa",
+      "english": "sha",
+      "category": "consonant"
+    },
+    {
+      "id": "consonant-31",
+      "malayalam": "ഷ",
+      "transliteration": "ṣa",
+      "english": "sha (hard)",
+      "category": "consonant"
+    },
+    {
+      "id": "consonant-32",
+      "malayalam": "സ",
+      "transliteration": "sa",
+      "english": "sa",
+      "category": "consonant"
+    },
+    {
+      "id": "consonant-33",
+      "malayalam": "ഹ",
+      "transliteration": "ha",
+      "english": "ha",
+      "category": "consonant"
+    },
+    {
+      "id": "consonant-34",
+      "malayalam": "ള",
+      "transliteration": "ḷa",
+      "english": "la (hard)",
+      "category": "consonant"
+    },
+    {
+      "id": "consonant-35",
+      "malayalam": "ഴ",
+      "transliteration": "ḻa",
+      "english": "zha",
+      "category": "consonant"
+    },
+    {
+      "id": "consonant-36",
+      "malayalam": "റ",
+      "transliteration": "ṟa",
+      "english": "ra (hard)",
+      "category": "consonant"
+    },
+    {
+      "id": "chilla-1",
+      "malayalam": "ൻ",
+      "transliteration": "n",
+      "english": "n (chillu)",
+      "category": "chillaksharam"
+    },
+    {
+      "id": "chilla-2",
+      "malayalam": "ർ",
+      "transliteration": "r",
+      "english": "r (chillu)",
+      "category": "chillaksharam"
+    },
+    {
+      "id": "chilla-3",
+      "malayalam": "ൽ",
+      "transliteration": "l",
+      "english": "l (chillu)",
+      "category": "chillaksharam"
+    },
+    {
+      "id": "chilla-4",
+      "malayalam": "ൾ",
+      "transliteration": "ḷ",
+      "english": "ḷ (chillu)",
+      "category": "chillaksharam"
+    },
+    {
+      "id": "chilla-5",
+      "malayalam": "ൺ",
+      "transliteration": "ṇ",
+      "english": "ṇ (chillu)",
+      "category": "chillaksharam"
+    },
+    {
+      "id": "chilla-6",
+      "malayalam": "ൿ",
+      "transliteration": "k",
+      "english": "k (chillu)",
+      "category": "chillaksharam"
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "mcq-alphabet-1",
+      "question": "Which is the first vowel in Malayalam?",
+      "options": [
+        {"malayalam": "ആ", "transliteration": "ā"},
+        {"malayalam": "അ", "transliteration": "a"},
+        {"malayalam": "ഇ", "transliteration": "i"},
+        {"malayalam": "എ", "transliteration": "e"}
+      ],
+      "correct": 1,
+      "explanation": "അ (a) is the first vowel in Malayalam alphabet"
+    },
+    {
+      "id": "mcq-alphabet-2",
+      "question": "What sound does 'ഇ' make?",
+      "options": [
+        {"malayalam": "a", "transliteration": ""},
+        {"malayalam": "i (as in sit)", "transliteration": ""},
+        {"malayalam": "u", "transliteration": ""},
+        {"malayalam": "e", "transliteration": ""}
+      ],
+      "correct": 1,
+      "explanation": "ഇ makes the 'i' sound as in 'sit'"
+    },
+    {
+      "id": "mcq-alphabet-3",
+      "question": "Which letter makes the 'ka' sound?",
+      "options": [
+        {"malayalam": "ഗ", "transliteration": "ga"},
+        {"malayalam": "ച", "transliteration": "cha"},
+        {"malayalam": "ക", "transliteration": "ka"},
+        {"malayalam": "ട", "transliteration": "ṭa"}
+      ],
+      "correct": 2,
+      "explanation": "ക makes the 'ka' sound"
+    },
+    {
+      "id": "mcq-alphabet-4",
+      "question": "Which of these is a chillu letter (chillaksharam)?",
+      "options": [
+        {"malayalam": "ന", "transliteration": "na"},
+        {"malayalam": "ൻ", "transliteration": "n"},
+        {"malayalam": "ണ", "transliteration": "ṇa"},
+        {"malayalam": "മ", "transliteration": "ma"}
+      ],
+      "correct": 1,
+      "explanation": "ൻ is a chillu letter (chillaksharam) - a special consonant without inherent vowel"
+    },
+    {
+      "id": "mcq-alphabet-5",
+      "question": "What is the unique Malayalam letter 'ഴ' called?",
+      "options": [
+        {"malayalam": "la", "transliteration": ""},
+        {"malayalam": "zha", "transliteration": ""},
+        {"malayalam": "ra", "transliteration": ""},
+        {"malayalam": "sha", "transliteration": ""}
+      ],
+      "correct": 1,
+      "explanation": "ഴ is called 'zha' - a unique sound in Malayalam"
+    },
+    {
+      "id": "mcq-alphabet-6",
+      "question": "How many vowels are there in Malayalam?",
+      "options": [
+        {"malayalam": "10", "transliteration": ""},
+        {"malayalam": "13", "transliteration": ""},
+        {"malayalam": "15", "transliteration": ""},
+        {"malayalam": "12", "transliteration": ""}
+      ],
+      "correct": 2,
+      "explanation": "Malayalam has 15 vowels including anusvara (അം) and visarga (അഃ)"
+    }
+  ]
+}
+

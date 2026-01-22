@@ -1,0 +1,173 @@
+{
+  "title": "Ordering Food",
+  "lessons": [
+    {
+      "id": "order-1",
+      "malayalam": "മെനു കാണിക്കാമോ?",
+      "transliteration": "menu kāṇikkāmo?",
+      "english": "Can you show the menu?",
+      "category": "request"
+    },
+    {
+      "id": "order-2",
+      "malayalam": "എനിക്ക് ഇത് വേണം",
+      "transliteration": "enikku ithu vēṇam",
+      "english": "I want this",
+      "category": "ordering"
+    },
+    {
+      "id": "order-3",
+      "malayalam": "ചായ വേണോ?",
+      "transliteration": "chāya vēṇō?",
+      "english": "Want tea?",
+      "category": "offering"
+    },
+    {
+      "id": "order-4",
+      "malayalam": "വെള്ളം തരൂ",
+      "transliteration": "veḷḷam tharū",
+      "english": "Give me water",
+      "category": "request"
+    },
+    {
+      "id": "order-5",
+      "malayalam": "ചൂടുള്ളതാണോ?",
+      "transliteration": "chūṭuḷḷathāṇo?",
+      "english": "Is it hot/spicy?",
+      "category": "question"
+    },
+    {
+      "id": "order-6",
+      "malayalam": "എത്ര രൂപ?",
+      "transliteration": "ethra rūpa?",
+      "english": "How much?",
+      "category": "payment"
+    },
+    {
+      "id": "order-7",
+      "malayalam": "ബിൽ തരൂ",
+      "transliteration": "bil tharū",
+      "english": "Give me the bill",
+      "category": "payment"
+    },
+    {
+      "id": "order-8",
+      "malayalam": "വളരെ രുചിയുണ്ട്",
+      "transliteration": "vaḷare ruchiyuṇṭu",
+      "english": "Very tasty",
+      "category": "compliment"
+    },
+    {
+      "id": "order-9",
+      "malayalam": "മതി",
+      "transliteration": "mati",
+      "english": "Enough / That's all",
+      "category": "response"
+    },
+    {
+      "id": "order-10",
+      "malayalam": "വേണം",
+      "transliteration": "vēṇam",
+      "english": "Want / Need",
+      "category": "response"
+    },
+    {
+      "id": "order-11",
+      "malayalam": "വേണ്ട",
+      "transliteration": "vēṇṭa",
+      "english": "Don't want",
+      "category": "response"
+    },
+    {
+      "id": "order-12",
+      "malayalam": "കൂടുതൽ വേണോ?",
+      "transliteration": "kūṭuthal vēṇō?",
+      "english": "Want more?",
+      "category": "offering"
+    },
+    {
+      "id": "order-13",
+      "malayalam": "ഇത് എന്താണ്?",
+      "transliteration": "ithu enthāṇ?",
+      "english": "What is this?",
+      "category": "question"
+    },
+    {
+      "id": "order-14",
+      "malayalam": "പാക്കറ്റ് ചെയ്യാമോ?",
+      "transliteration": "pākkaṟṟu cheyyāmo?",
+      "english": "Can you pack it? (Takeaway)",
+      "category": "request"
+    },
+    {
+      "id": "order-15",
+      "malayalam": "ഒരു കോഫി തരൂ",
+      "transliteration": "oru kōphi tharū",
+      "english": "Give me one coffee",
+      "category": "ordering"
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "mcq-order-1",
+      "question": "How do you ask for the menu?",
+      "options": [
+        {"malayalam": "മെനു കാണിക്കാമോ?", "transliteration": "menu kāṇikkāmo?"},
+        {"malayalam": "ബിൽ തരൂ", "transliteration": "bil tharū"},
+        {"malayalam": "വെള്ളം തരൂ", "transliteration": "veḷḷam tharū"},
+        {"malayalam": "എത്ര രൂപ?", "transliteration": "ethra rūpa?"}
+      ],
+      "correct": 0,
+      "explanation": "മെനു കാണിക്കാമോ? (menu kāṇikkāmo?) means 'Can you show the menu?'"
+    },
+    {
+      "id": "mcq-order-2",
+      "question": "What does 'എത്ര രൂപ?' (ethra rūpa?) mean?",
+      "options": [
+        {"malayalam": "How much?", "transliteration": ""},
+        {"malayalam": "What is this?", "transliteration": ""},
+        {"malayalam": "Is it hot?", "transliteration": ""},
+        {"malayalam": "Very tasty", "transliteration": ""}
+      ],
+      "correct": 0,
+      "explanation": "എത്ര രൂപ? (ethra rūpa?) means 'How much?' when asking about price"
+    },
+    {
+      "id": "mcq-order-3",
+      "question": "How do you say 'Give me the bill'?",
+      "options": [
+        {"malayalam": "മെനു തരൂ", "transliteration": "menu tharū"},
+        {"malayalam": "ബിൽ തരൂ", "transliteration": "bil tharū"},
+        {"malayalam": "വെള്ളം തരൂ", "transliteration": "veḷḷam tharū"},
+        {"malayalam": "മതി", "transliteration": "mati"}
+      ],
+      "correct": 1,
+      "explanation": "ബിൽ തരൂ (bil tharū) means 'Give me the bill'"
+    },
+    {
+      "id": "mcq-order-4",
+      "question": "What does 'മതി' (mati) mean in a restaurant context?",
+      "options": [
+        {"malayalam": "More", "transliteration": ""},
+        {"malayalam": "Enough / That's all", "transliteration": ""},
+        {"malayalam": "Want", "transliteration": ""},
+        {"malayalam": "Tasty", "transliteration": ""}
+      ],
+      "correct": 1,
+      "explanation": "മതി (mati) means 'Enough' or 'That's all' - used when you don't want more"
+    },
+    {
+      "id": "mcq-order-5",
+      "question": "How do you say 'Very tasty'?",
+      "options": [
+        {"malayalam": "വളരെ രുചിയുണ്ട്", "transliteration": "vaḷare ruchiyuṇṭu"},
+        {"malayalam": "ചൂടുള്ളതാണോ?", "transliteration": "chūṭuḷḷathāṇo?"},
+        {"malayalam": "എനിക്ക് ഇത് വേണം", "transliteration": "enikku ithu vēṇam"},
+        {"malayalam": "കൂടുതൽ വേണോ?", "transliteration": "kūṭuthal vēṇō?"}
+      ],
+      "correct": 0,
+      "explanation": "വളരെ രുചിയുണ്ട് (vaḷare ruchiyuṇṭu) means 'Very tasty'"
+    }
+  ]
+}
+

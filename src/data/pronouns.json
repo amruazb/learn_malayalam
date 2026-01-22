@@ -1,0 +1,131 @@
+{
+  "title": "Pronouns (Spoken Style)",
+  "lessons": [
+    {
+      "id": "pronoun-1",
+      "malayalam": "ഞാൻ",
+      "transliteration": "ñān",
+      "english": "I",
+      "category": "personal"
+    },
+    {
+      "id": "pronoun-2",
+      "malayalam": "നീ",
+      "transliteration": "nī",
+      "english": "You (casual)",
+      "category": "personal"
+    },
+    {
+      "id": "pronoun-3",
+      "malayalam": "നിങ്ങൾ",
+      "transliteration": "niṅṅaḷ",
+      "english": "You (respectful)",
+      "category": "personal"
+    },
+    {
+      "id": "pronoun-4",
+      "malayalam": "ചേട്ടാ",
+      "transliteration": "chēṭṭā",
+      "english": "You (older brother/respectful male)",
+      "category": "personal"
+    },
+    {
+      "id": "pronoun-5",
+      "malayalam": "ചേച്ചി",
+      "transliteration": "chēchi",
+      "english": "You (older sister/respectful female)",
+      "category": "personal"
+    },
+    {
+      "id": "pronoun-6",
+      "malayalam": "അവൻ",
+      "transliteration": "avaṉ",
+      "english": "He",
+      "category": "third-person"
+    },
+    {
+      "id": "pronoun-7",
+      "malayalam": "അവൾ",
+      "transliteration": "avaḷ",
+      "english": "She",
+      "category": "third-person"
+    },
+    {
+      "id": "pronoun-8",
+      "malayalam": "നമ്മൾ",
+      "transliteration": "nammaḷ",
+      "english": "We",
+      "category": "plural"
+    },
+    {
+      "id": "pronoun-9",
+      "malayalam": "അവർ",
+      "transliteration": "avar",
+      "english": "They",
+      "category": "plural"
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "mcq-pronoun-1",
+      "question": "What is the Malayalam word for 'I'?",
+      "options": [
+        {"malayalam": "നീ", "transliteration": "nī"},
+        {"malayalam": "ഞാൻ", "transliteration": "ñān"},
+        {"malayalam": "അവൻ", "transliteration": "avaṉ"},
+        {"malayalam": "നമ്മൾ", "transliteration": "nammaḷ"}
+      ],
+      "correct": 1,
+      "explanation": "ഞാൻ (ñān) means 'I'"
+    },
+    {
+      "id": "mcq-pronoun-2",
+      "question": "Which pronoun is used for casual 'you'?",
+      "options": [
+        {"malayalam": "നിങ്ങൾ", "transliteration": "niṅṅaḷ"},
+        {"malayalam": "ചേട്ടാ", "transliteration": "chēṭṭā"},
+        {"malayalam": "നീ", "transliteration": "nī"},
+        {"malayalam": "അവൻ", "transliteration": "avaṉ"}
+      ],
+      "correct": 2,
+      "explanation": "നീ (nī) is the casual form of 'you'"
+    },
+    {
+      "id": "mcq-pronoun-3",
+      "question": "What does 'അവൾ' (avaḷ) mean?",
+      "options": [
+        {"malayalam": "He", "transliteration": ""},
+        {"malayalam": "She", "transliteration": ""},
+        {"malayalam": "They", "transliteration": ""},
+        {"malayalam": "We", "transliteration": ""}
+      ],
+      "correct": 1,
+      "explanation": "അവൾ (avaḷ) means 'She'"
+    },
+    {
+      "id": "mcq-pronoun-4",
+      "question": "Which is the respectful form of 'you'?",
+      "options": [
+        {"malayalam": "നീ", "transliteration": "nī"},
+        {"malayalam": "അവൻ", "transliteration": "avaṉ"},
+        {"malayalam": "നിങ്ങൾ", "transliteration": "niṅṅaḷ"},
+        {"malayalam": "ഞാൻ", "transliteration": "ñān"}
+      ],
+      "correct": 2,
+      "explanation": "നിങ്ങൾ (niṅṅaḷ) is the respectful form of 'you'"
+    },
+    {
+      "id": "mcq-pronoun-5",
+      "question": "What does 'നമ്മൾ' (nammaḷ) mean?",
+      "options": [
+        {"malayalam": "I", "transliteration": ""},
+        {"malayalam": "You", "transliteration": ""},
+        {"malayalam": "We", "transliteration": ""},
+        {"malayalam": "They", "transliteration": ""}
+      ],
+      "correct": 2,
+      "explanation": "നമ്മൾ (nammaḷ) means 'We'"
+    }
+  ]
+}
+

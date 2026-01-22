@@ -1,0 +1,126 @@
+{
+  "title": "Formal Conversations",
+  "lessons": [
+    {
+      "id": "formal-1",
+      "malayalam": "നമസ്കാരം",
+      "transliteration": "namaskāram",
+      "english": "Hello (formal)",
+      "category": "greeting"
+    },
+    {
+      "id": "formal-2",
+      "malayalam": "സുഖമാണോ?",
+      "transliteration": "sukhamāṇo?",
+      "english": "How are you? (formal)",
+      "category": "greeting"
+    },
+    {
+      "id": "formal-3",
+      "malayalam": "ദയവായി വരൂ",
+      "transliteration": "dayavāyi varū",
+      "english": "Please come",
+      "category": "request"
+    },
+    {
+      "id": "formal-4",
+      "malayalam": "ദയവായി ഇരിക്കൂ",
+      "transliteration": "dayavāyi irikkū",
+      "english": "Please sit",
+      "category": "request"
+    },
+    {
+      "id": "formal-5",
+      "malayalam": "കുറച്ച് കാത്തിരിക്കുക",
+      "transliteration": "kuṟachu kāthirikkuka",
+      "english": "Please wait a moment",
+      "category": "request"
+    },
+    {
+      "id": "formal-6",
+      "malayalam": "എനിക്ക് മനസ്സിലായില്ല",
+      "transliteration": "enikku manassilāyilla",
+      "english": "I don't understand",
+      "category": "clarifying"
+    },
+    {
+      "id": "formal-7",
+      "malayalam": "പതുക്കെ പറയൂ",
+      "transliteration": "padhukkē parayū",
+      "english": "Please speak slowly",
+      "category": "clarifying"
+    },
+    {
+      "id": "formal-8",
+      "malayalam": "വീണ്ടും പറയൂ",
+      "transliteration": "vīndum parayū",
+      "english": "Please say again",
+      "category": "clarifying"
+    },
+    {
+      "id": "formal-9",
+      "malayalam": "നന്ദി",
+      "transliteration": "nandi",
+      "english": "Thank you",
+      "category": "polite"
+    },
+    {
+      "id": "formal-10",
+      "malayalam": "ക്ഷമിക്കണം",
+      "transliteration": "kṣamikkaṇam",
+      "english": "Excuse me / Sorry",
+      "category": "polite"
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "mcq-formal-1",
+      "question": "How do you formally say 'Hello'?",
+      "options": [
+        {"malayalam": "ഹായ്", "transliteration": "hai"},
+        {"malayalam": "നമസ്കാരം", "transliteration": "namaskāram"},
+        {"malayalam": "എന്താ വിശേഷം?", "transliteration": "entā viśēṣam?"},
+        {"malayalam": "ഒന്ന് വരൂ", "transliteration": "onnu varū"}
+      ],
+      "correct": 1,
+      "explanation": "നമസ്കാരം (namaskāram) is the formal way to say 'Hello'"
+    },
+    {
+      "id": "mcq-formal-2",
+      "question": "What does 'ദയവായി വരൂ' (dayavāyi varū) mean?",
+      "options": [
+        {"malayalam": "Please come", "transliteration": ""},
+        {"malayalam": "Please sit", "transliteration": ""},
+        {"malayalam": "Please wait", "transliteration": ""},
+        {"malayalam": "Please go", "transliteration": ""}
+      ],
+      "correct": 0,
+      "explanation": "ദയവായി വരൂ (dayavāyi varū) means 'Please come'"
+    },
+    {
+      "id": "mcq-formal-3",
+      "question": "How do you say 'Thank you' formally?",
+      "options": [
+        {"malayalam": "ശരി", "transliteration": "śari"},
+        {"malayalam": "നന്ദി", "transliteration": "nandi"},
+        {"malayalam": "മതി", "transliteration": "mati"},
+        {"malayalam": "അതെ", "transliteration": "athe"}
+      ],
+      "correct": 1,
+      "explanation": "നന്ദി (nandi) means 'Thank you'"
+    },
+    {
+      "id": "mcq-formal-4",
+      "question": "What does 'പതുക്കെ പറയൂ' (padhukkē parayū) mean?",
+      "options": [
+        {"malayalam": "Say again", "transliteration": ""},
+        {"malayalam": "Speak slowly", "transliteration": ""},
+        {"malayalam": "I don't understand", "transliteration": ""},
+        {"malayalam": "Thank you", "transliteration": ""}
+      ],
+      "correct": 1,
+      "explanation": "പതുക്കെ പറയൂ (padhukkē parayū) means 'Please speak slowly'"
+    }
+  ]
+}
+
