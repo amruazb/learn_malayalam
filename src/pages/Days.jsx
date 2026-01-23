@@ -30,7 +30,7 @@ const Days = () => {
   }
 
   const getCompletedDaysCount = () => {
-    return [1, 2, 3, 4, 5].filter(day => isDayCompleted(day)).length
+    return [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].filter(day => isDayCompleted(day)).length
   }
 
   const days = [
@@ -78,24 +78,69 @@ const Days = () => {
       icon: '5️⃣',
       color: '#43e97b',
       items: '7 letters + 4 phrases + 2 sentences'
+    },
+    {
+      day: 6,
+      title: 'Numbers & Counting',
+      description: 'Learn Malayalam numbers and basic counting',
+      path: '/day/6',
+      icon: '6️⃣',
+      color: '#fa709a',
+      items: '5 consonants + 6 numbers + 2 sentences'
+    },
+    {
+      day: 7,
+      title: 'Family & Relationships',
+      description: 'Learn to talk about family members in Malayalam',
+      path: '/day/7',
+      icon: '7️⃣',
+      color: '#fee140',
+      items: '5 consonants + 6 family words + 2 sentences'
+    },
+    {
+      day: 8,
+      title: 'Colors & Descriptions',
+      description: 'Learn colors and how to describe things',
+      path: '/day/8',
+      icon: '8️⃣',
+      color: '#30cfd0',
+      items: '4 compounds + 6 colors + 2 sentences'
+    },
+    {
+      day: 9,
+      title: 'Time & Days',
+      description: 'Learn to tell time and talk about days of the week',
+      path: '/day/9',
+      icon: '9️⃣',
+      color: '#a8edea',
+      items: '4 compounds + 6 time words + 2 sentences'
+    },
+    {
+      day: 10,
+      title: 'Review & Practice',
+      description: 'Review everything you\'ve learned so far',
+      path: '/day/10',
+      icon: '🔟',
+      color: '#fbc2eb',
+      items: '4 letters + 6 vocab + 2 sentences'
     }
   ]
 
   const completedDays = getCompletedDaysCount()
-  const progressPercentage = (completedDays / 5) * 100
+  const progressPercentage = (completedDays / 10) * 100
 
   return (
     <div className="basics-page">
       <header className="basics-header">
         <h1>🗓️ Daily Malayalam Lessons</h1>
-        <p>Learn Malayalam step-by-step with our structured daily lessons. Currently 5 days available, more coming soon!</p>
+        <p>Learn Malayalam step-by-step with our structured daily lessons. 10 days of comprehensive learning!</p>
 
         {user && (
           <div className="progress-overview">
             <div className="progress-bar-container">
               <div className="progress-bar-fill" style={{ width: `${progressPercentage}%` }}></div>
             </div>
-            <p className="progress-text">{completedDays}/5 Days Completed ({Math.round(progressPercentage)}%)</p>
+            <p className="progress-text">{completedDays}/10 Days Completed ({Math.round(progressPercentage)}%)</p>
           </div>
         )}
       </header>

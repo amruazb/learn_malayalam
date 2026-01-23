@@ -1,0 +1,144 @@
+{
+  "day": 7,
+  "title": "Family & Relationships",
+  "description": "Learn to talk about family members in Malayalam",
+  "sections": [
+    {
+      "type": "letters",
+      "title": "Final Consonants",
+      "description": "Complete the consonant set",
+      "items": [
+        {
+          "id": "day7-consonant-1",
+          "malayalam": "വ",
+          "transliteration": "va",
+          "english": "va (as in 'van')"
+        },
+        {
+          "id": "day7-consonant-2",
+          "malayalam": "ശ",
+          "transliteration": "śa",
+          "english": "sha (as in 'shout')"
+        },
+        {
+          "id": "day7-consonant-3",
+          "malayalam": "ഷ",
+          "transliteration": "ṣa",
+          "english": "sha (retroflex)"
+        },
+        {
+          "id": "day7-consonant-4",
+          "malayalam": "സ",
+          "transliteration": "sa",
+          "english": "sa (as in 'sun')"
+        },
+        {
+          "id": "day7-consonant-5",
+          "malayalam": "ഹ",
+          "transliteration": "ha",
+          "english": "ha (as in 'house')"
+        }
+      ]
+    },
+    {
+      "type": "words",
+      "title": "Family Members",
+      "description": "Essential family vocabulary",
+      "items": [
+        {
+          "id": "day7-family-1",
+          "malayalam": "അച്ഛൻ",
+          "transliteration": "acchan",
+          "english": "Father"
+        },
+        {
+          "id": "day7-family-2",
+          "malayalam": "അമ്മ",
+          "transliteration": "amma",
+          "english": "Mother"
+        },
+        {
+          "id": "day7-family-3",
+          "malayalam": "സഹോദരൻ",
+          "transliteration": "sahōdaran",
+          "english": "Brother"
+        },
+        {
+          "id": "day7-family-4",
+          "malayalam": "സഹോദരി",
+          "transliteration": "sahōdari",
+          "english": "Sister"
+        },
+        {
+          "id": "day7-family-5",
+          "malayalam": "കുട്ടി",
+          "transliteration": "kuṭṭi",
+          "english": "Child"
+        },
+        {
+          "id": "day7-family-6",
+          "malayalam": "കുടുംബം",
+          "transliteration": "kuḍumbam",
+          "english": "Family"
+        }
+      ]
+    },
+    {
+      "type": "sentences",
+      "title": "Talking About Family",
+      "description": "Use family words in context",
+      "items": [
+        {
+          "id": "day7-sentence-1",
+          "malayalam": "ഇത് എന്റെ അമ്മയാണ്",
+          "transliteration": "ithu enṟe ammayāṇu",
+          "english": "This is my mother"
+        },
+        {
+          "id": "day7-sentence-2",
+          "malayalam": "എന്റെ കുടുംബം വലുതാണ്",
+          "transliteration": "enṟe kuḍumbam valuthāṇu",
+          "english": "My family is big"
+        }
+      ]
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "day7-mcq-1",
+      "question": "What does 'അമ്മ' mean?",
+      "options": ["Father", "Mother", "Sister", "Brother"],
+      "correctAnswer": 1,
+      "malayalam": "അമ്മ"
+    },
+    {
+      "id": "day7-mcq-2",
+      "question": "How do you say 'Family' in Malayalam?",
+      "options": ["കുട്ടി", "കുടുംബം", "സഹോദരൻ", "അച്ഛൻ"],
+      "correctAnswer": 1,
+      "malayalam": "കുടുംബം"
+    },
+    {
+      "id": "day7-mcq-3",
+      "question": "What is 'സഹോദരി'?",
+      "options": ["Brother", "Sister", "Mother", "Child"],
+      "correctAnswer": 1,
+      "malayalam": "സഹോദരി"
+    },
+    {
+      "id": "day7-mcq-4",
+      "question": "Which consonant sounds like 'ha'?",
+      "options": ["വ", "ശ", "സ", "ഹ"],
+      "correctAnswer": 3,
+      "malayalam": "ഹ"
+    },
+    {
+      "id": "day7-mcq-5",
+      "question": "How do you say 'This is my mother'?",
+      "options": ["എന്റെ കുടുംബം", "ഇത് എന്റെ അമ്മയാണ്", "അമ്മ വലുതാണ്", "എന്റെ അച്ഛൻ"],
+      "correctAnswer": 1,
+      "malayalam": "ഇത് എന്റെ അമ്മയാണ്"
+    }
+  ]
+}
+

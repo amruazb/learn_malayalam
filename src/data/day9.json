@@ -1,0 +1,138 @@
+{
+  "day": 9,
+  "title": "Time & Days",
+  "description": "Learn to tell time and talk about days of the week",
+  "sections": [
+    {
+      "type": "letters",
+      "title": "Compound Letters - Part 2",
+      "description": "More compound letters",
+      "items": [
+        {
+          "id": "day9-compound-1",
+          "malayalam": "ന്ന",
+          "transliteration": "nna",
+          "english": "double na"
+        },
+        {
+          "id": "day9-compound-2",
+          "malayalam": "ല്ല",
+          "transliteration": "lla",
+          "english": "double la"
+        },
+        {
+          "id": "day9-compound-3",
+          "malayalam": "ണ്ട",
+          "transliteration": "ṇḍa",
+          "english": "nda compound"
+        },
+        {
+          "id": "day9-compound-4",
+          "malayalam": "ന്ത",
+          "transliteration": "ntha",
+          "english": "ntha compound"
+        }
+      ]
+    },
+    {
+      "type": "words",
+      "title": "Time & Days",
+      "description": "Essential time vocabulary",
+      "items": [
+        {
+          "id": "day9-time-1",
+          "malayalam": "ഇന്ന്",
+          "transliteration": "innu",
+          "english": "Today"
+        },
+        {
+          "id": "day9-time-2",
+          "malayalam": "നാളെ",
+          "transliteration": "nāḷe",
+          "english": "Tomorrow"
+        },
+        {
+          "id": "day9-time-3",
+          "malayalam": "ഇന്നലെ",
+          "transliteration": "innale",
+          "english": "Yesterday"
+        },
+        {
+          "id": "day9-time-4",
+          "malayalam": "രാവിലെ",
+          "transliteration": "rāvile",
+          "english": "Morning"
+        },
+        {
+          "id": "day9-time-5",
+          "malayalam": "രാത്രി",
+          "transliteration": "rātri",
+          "english": "Night"
+        },
+        {
+          "id": "day9-time-6",
+          "malayalam": "സമയം",
+          "transliteration": "samayam",
+          "english": "Time"
+        }
+      ]
+    },
+    {
+      "type": "sentences",
+      "title": "Talking About Time",
+      "description": "Use time words in context",
+      "items": [
+        {
+          "id": "day9-sentence-1",
+          "malayalam": "ഇന്ന് എന്താണ് ദിവസം?",
+          "transliteration": "innu enthāṇu divasam?",
+          "english": "What day is today?"
+        },
+        {
+          "id": "day9-sentence-2",
+          "malayalam": "നാളെ കാണാം",
+          "transliteration": "nāḷe kāṇām",
+          "english": "See you tomorrow"
+        }
+      ]
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "day9-mcq-1",
+      "question": "What does 'ഇന്ന്' mean?",
+      "options": ["Yesterday", "Today", "Tomorrow", "Morning"],
+      "correctAnswer": 1,
+      "malayalam": "ഇന്ന്"
+    },
+    {
+      "id": "day9-mcq-2",
+      "question": "How do you say 'Tomorrow' in Malayalam?",
+      "options": ["ഇന്നലെ", "നാളെ", "രാവിലെ", "രാത്രി"],
+      "correctAnswer": 1,
+      "malayalam": "നാളെ"
+    },
+    {
+      "id": "day9-mcq-3",
+      "question": "What is 'രാവിലെ'?",
+      "options": ["Night", "Morning", "Evening", "Afternoon"],
+      "correctAnswer": 1,
+      "malayalam": "രാവിലെ"
+    },
+    {
+      "id": "day9-mcq-4",
+      "question": "Which is a compound letter?",
+      "options": ["മ", "ല്ല", "സ", "ഹ"],
+      "correctAnswer": 1,
+      "malayalam": "ല്ല"
+    },
+    {
+      "id": "day9-mcq-5",
+      "question": "How do you say 'See you tomorrow'?",
+      "options": ["ഇന്ന് കാണാം", "നാളെ കാണാം", "ഇന്നലെ കണ്ടു", "രാവിലെ കാണാം"],
+      "correctAnswer": 1,
+      "malayalam": "നാളെ കാണാം"
+    }
+  ]
+}
+

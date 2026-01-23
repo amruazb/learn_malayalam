@@ -96,7 +96,7 @@
         {"malayalam": "നമസ്കാരം", "transliteration": "namaskāram"},
         {"malayalam": "എവിടെയാ?", "transliteration": "evidēyā?"}
       ],
-      "correct": 0,
+      "correctAnswer": 0,
       "explanation": "എന്താ വിശേഷം? (entā viśēṣam?) is a casual way to ask 'What's up?'"
     },
     {
@@ -108,7 +108,7 @@
         {"malayalam": "Want tea?", "transliteration": ""},
         {"malayalam": "Where are you going?", "transliteration": ""}
       ],
-      "correct": 1,
+      "correctAnswer": 1,
       "explanation": "കഴിച്ചോ? (kazhichō?) means 'Did you eat?' - a common casual greeting"
     },
     {
@@ -120,7 +120,7 @@
         {"malayalam": "വേണം", "transliteration": "vēṇam"},
         {"malayalam": "ഒന്നുമില്ല", "transliteration": "onnumilla"}
       ],
-      "correct": 0,
+      "correctAnswer": 0,
       "explanation": "എനിക്ക് വിശക്കുന്നു (enikku viśakkunnu) means 'I'm hungry'"
     },
     {
@@ -132,7 +132,7 @@
         {"malayalam": "Something", "transliteration": ""},
         {"malayalam": "Anything", "transliteration": ""}
       ],
-      "correct": 1,
+      "correctAnswer": 1,
       "explanation": "ഒന്നുമില്ല (onnumilla) means 'Nothing much' - common response to 'What's up?'"
     }
   ]

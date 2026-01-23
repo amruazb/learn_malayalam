@@ -23,6 +23,18 @@
   font-size: 1.1rem;
 }
 
+.bonus-tag {
+  display: inline-block;
+  background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+  color: white;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-top: 15px;
+  box-shadow: 0 2px 8px rgba(250, 112, 154, 0.3);
+}
+
 .coming-soon-notice {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;

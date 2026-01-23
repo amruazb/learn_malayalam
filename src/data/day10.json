@@ -1,0 +1,145 @@
+{
+  "day": 10,
+  "title": "Review & Practice",
+  "description": "Review everything you've learned so far",
+  "sections": [
+    {
+      "type": "letters",
+      "title": "Letter Review",
+      "description": "Review important letters",
+      "items": [
+        {
+          "id": "day10-review-1",
+          "malayalam": "അ",
+          "transliteration": "a",
+          "english": "a (vowel)"
+        },
+        {
+          "id": "day10-review-2",
+          "malayalam": "ക",
+          "transliteration": "ka",
+          "english": "ka (consonant)"
+        },
+        {
+          "id": "day10-review-3",
+          "malayalam": "മ",
+          "transliteration": "ma",
+          "english": "ma (consonant)"
+        },
+        {
+          "id": "day10-review-4",
+          "malayalam": "ന",
+          "transliteration": "na",
+          "english": "na (consonant)"
+        }
+      ]
+    },
+    {
+      "type": "words",
+      "title": "Essential Vocabulary Review",
+      "description": "Most important words learned",
+      "items": [
+        {
+          "id": "day10-vocab-1",
+          "malayalam": "നമസ്കാരം",
+          "transliteration": "namaskāram",
+          "english": "Hello / Greetings"
+        },
+        {
+          "id": "day10-vocab-2",
+          "malayalam": "നന്ദി",
+          "transliteration": "nandi",
+          "english": "Thank you"
+        },
+        {
+          "id": "day10-vocab-3",
+          "malayalam": "ഞാൻ",
+          "transliteration": "ñān",
+          "english": "I / Me"
+        },
+        {
+          "id": "day10-vocab-4",
+          "malayalam": "നീ",
+          "transliteration": "nī",
+          "english": "You"
+        },
+        {
+          "id": "day10-vocab-5",
+          "malayalam": "അമ്മ",
+          "transliteration": "amma",
+          "english": "Mother"
+        },
+        {
+          "id": "day10-vocab-6",
+          "malayalam": "ഇന്ന്",
+          "transliteration": "innu",
+          "english": "Today"
+        }
+      ]
+    },
+    {
+      "type": "sentences",
+      "title": "Common Phrases Review",
+      "description": "Practice essential sentences",
+      "items": [
+        {
+          "id": "day10-sentence-1",
+          "malayalam": "എന്റെ പേര് എന്താണ്?",
+          "transliteration": "enṟe pēru enthāṇu?",
+          "english": "What is your name?"
+        },
+        {
+          "id": "day10-sentence-2",
+          "malayalam": "എനിക്ക് മലയാളം അറിയാം",
+          "transliteration": "enikku malayāḷam aṟiyām",
+          "english": "I know Malayalam"
+        }
+      ]
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "day10-mcq-1",
+      "question": "What does 'നമസ്കാരം' mean?",
+      "options": ["Goodbye", "Hello", "Thank you", "Sorry"],
+      "correctAnswer": 1,
+      "malayalam": "നമസ്കാരം"
+    },
+    {
+      "id": "day10-mcq-2",
+      "question": "How do you say 'I' in Malayalam?",
+      "options": ["നീ", "ഞാൻ", "അവൻ", "നാം"],
+      "correctAnswer": 1,
+      "malayalam": "ഞാൻ"
+    },
+    {
+      "id": "day10-mcq-3",
+      "question": "What is 'അമ്മ'?",
+      "options": ["Father", "Mother", "Sister", "Brother"],
+      "correctAnswer": 1,
+      "malayalam": "അമ്മ"
+    },
+    {
+      "id": "day10-mcq-4",
+      "question": "What does 'ഇന്ന്' mean?",
+      "options": ["Yesterday", "Tomorrow", "Today", "Morning"],
+      "correctAnswer": 2,
+      "malayalam": "ഇന്ന്"
+    },
+    {
+      "id": "day10-mcq-5",
+      "question": "How do you say 'Thank you'?",
+      "options": ["നമസ്കാരം", "നന്ദി", "ക്ഷമിക്കണം", "ദയവായി"],
+      "correctAnswer": 1,
+      "malayalam": "നന്ദി"
+    },
+    {
+      "id": "day10-mcq-6",
+      "question": "What does 'എനിക്ക് മലയാളം അറിയാം' mean?",
+      "options": ["I don't know Malayalam", "I know Malayalam", "Do you know Malayalam?", "Malayalam is hard"],
+      "correctAnswer": 1,
+      "malayalam": "എനിക്ക് മലയാളം അറിയാം"
+    }
+  ]
+}
+

@@ -1,0 +1,138 @@
+{
+  "day": 8,
+  "title": "Colors & Descriptions",
+  "description": "Learn colors and how to describe things",
+  "sections": [
+    {
+      "type": "letters",
+      "title": "Compound Letters - Part 1",
+      "description": "Learn basic compound letters",
+      "items": [
+        {
+          "id": "day8-compound-1",
+          "malayalam": "ക്ക",
+          "transliteration": "kka",
+          "english": "double ka"
+        },
+        {
+          "id": "day8-compound-2",
+          "malayalam": "ത്ത",
+          "transliteration": "ttha",
+          "english": "double tha"
+        },
+        {
+          "id": "day8-compound-3",
+          "malayalam": "പ്പ",
+          "transliteration": "ppa",
+          "english": "double pa"
+        },
+        {
+          "id": "day8-compound-4",
+          "malayalam": "മ്മ",
+          "transliteration": "mma",
+          "english": "double ma"
+        }
+      ]
+    },
+    {
+      "type": "words",
+      "title": "Colors",
+      "description": "Basic color vocabulary",
+      "items": [
+        {
+          "id": "day8-color-1",
+          "malayalam": "ചുവപ്പ്",
+          "transliteration": "chuvappu",
+          "english": "Red"
+        },
+        {
+          "id": "day8-color-2",
+          "malayalam": "നീല",
+          "transliteration": "nīla",
+          "english": "Blue"
+        },
+        {
+          "id": "day8-color-3",
+          "malayalam": "പച്ച",
+          "transliteration": "paccha",
+          "english": "Green"
+        },
+        {
+          "id": "day8-color-4",
+          "malayalam": "മഞ്ഞ",
+          "transliteration": "mañña",
+          "english": "Yellow"
+        },
+        {
+          "id": "day8-color-5",
+          "malayalam": "വെള്ള",
+          "transliteration": "veḷḷa",
+          "english": "White"
+        },
+        {
+          "id": "day8-color-6",
+          "malayalam": "കറുപ്പ്",
+          "transliteration": "kaṟuppu",
+          "english": "Black"
+        }
+      ]
+    },
+    {
+      "type": "sentences",
+      "title": "Describing Things",
+      "description": "Use colors in sentences",
+      "items": [
+        {
+          "id": "day8-sentence-1",
+          "malayalam": "ഇത് ചുവപ്പ് നിറമാണ്",
+          "transliteration": "ithu chuvappu niṟamāṇu",
+          "english": "This is red color"
+        },
+        {
+          "id": "day8-sentence-2",
+          "malayalam": "എനിക്ക് നീല ഇഷ്ടമാണ്",
+          "transliteration": "enikku nīla iṣṭamāṇu",
+          "english": "I like blue"
+        }
+      ]
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "day8-mcq-1",
+      "question": "What color is 'ചുവപ്പ്'?",
+      "options": ["Blue", "Red", "Green", "Yellow"],
+      "correctAnswer": 1,
+      "malayalam": "ചുവപ്പ്"
+    },
+    {
+      "id": "day8-mcq-2",
+      "question": "How do you say 'Green' in Malayalam?",
+      "options": ["നീല", "പച്ച", "മഞ്ഞ", "വെള്ള"],
+      "correctAnswer": 1,
+      "malayalam": "പച്ച"
+    },
+    {
+      "id": "day8-mcq-3",
+      "question": "What does 'കറുപ്പ്' mean?",
+      "options": ["White", "Black", "Red", "Blue"],
+      "correctAnswer": 1,
+      "malayalam": "കറുപ്പ്"
+    },
+    {
+      "id": "day8-mcq-4",
+      "question": "Which is a compound letter?",
+      "options": ["മ", "ക്ക", "ല", "വ"],
+      "correctAnswer": 1,
+      "malayalam": "ക്ക"
+    },
+    {
+      "id": "day8-mcq-5",
+      "question": "How do you say 'I like blue'?",
+      "options": ["ഇത് നീല", "എനിക്ക് നീല ഇഷ്ടമാണ്", "നീല നിറം", "ചുവപ്പ് ഇഷ്ടം"],
+      "correctAnswer": 1,
+      "malayalam": "എനിക്ക് നീല ഇഷ്ടമാണ്"
+    }
+  ]
+}
+

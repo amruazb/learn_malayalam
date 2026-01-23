@@ -82,7 +82,7 @@
         {"malayalam": "എന്താ വിശേഷം?", "transliteration": "entā viśēṣam?"},
         {"malayalam": "ഒന്ന് വരൂ", "transliteration": "onnu varū"}
       ],
-      "correct": 1,
+      "correctAnswer": 1,
       "explanation": "നമസ്കാരം (namaskāram) is the formal way to say 'Hello'"
     },
     {
@@ -94,7 +94,7 @@
         {"malayalam": "Please wait", "transliteration": ""},
         {"malayalam": "Please go", "transliteration": ""}
       ],
-      "correct": 0,
+      "correctAnswer": 0,
       "explanation": "ദയവായി വരൂ (dayavāyi varū) means 'Please come'"
     },
     {
@@ -106,7 +106,7 @@
         {"malayalam": "മതി", "transliteration": "mati"},
         {"malayalam": "അതെ", "transliteration": "athe"}
       ],
-      "correct": 1,
+      "correctAnswer": 1,
       "explanation": "നന്ദി (nandi) means 'Thank you'"
     },
     {
@@ -118,9 +118,10 @@
         {"malayalam": "I don't understand", "transliteration": ""},
         {"malayalam": "Thank you", "transliteration": ""}
       ],
-      "correct": 1,
+      "correctAnswer": 1,
       "explanation": "പതുക്കെ പറയൂ (padhukkē parayū) means 'Please speak slowly'"
     }
   ]
 }
+
 

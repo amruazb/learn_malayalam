@@ -8,6 +8,15 @@ import Day2 from './pages/Day2'
 import Day3 from './pages/Day3'
 import Day4 from './pages/Day4'
 import Day5 from './pages/Day5'
+import Day6 from './pages/Day6'
+import Day7 from './pages/Day7'
+import Day8 from './pages/Day8'
+import Day9 from './pages/Day9'
+import Day10 from './pages/Day10'
+import BonusClasses from './pages/BonusClasses'
+import CasualConversations from './pages/CasualConversations'
+import FormalConversations from './pages/FormalConversations'
+import OrderingFood from './pages/OrderingFood'
 import Basics from './pages/Basics'
 import Alphabets from './pages/Alphabets'
 import Greetings from './pages/Greetings'
@@ -39,8 +48,8 @@ function Navigation() {
         <ul className="nav-menu">
           <li><Link to="/">Home</Link></li>
           <li><Link to="/days">Daily Lessons</Link></li>
+          <li><Link to="/bonus">Bonus Classes</Link></li>
           <li><Link to="/basics">Basics</Link></li>
-          <li><Link to="/conversations">Conversations</Link></li>
           <li><Link to="/progress">Progress</Link></li>
           {user ? (
             <>
@@ -88,6 +97,15 @@ function AppContent() {
           <Route path="/day/3" element={<Day3 />} />
           <Route path="/day/4" element={<Day4 />} />
           <Route path="/day/5" element={<Day5 />} />
+          <Route path="/day/6" element={<Day6 />} />
+          <Route path="/day/7" element={<Day7 />} />
+          <Route path="/day/8" element={<Day8 />} />
+          <Route path="/day/9" element={<Day9 />} />
+          <Route path="/day/10" element={<Day10 />} />
+          <Route path="/bonus" element={<BonusClasses />} />
+          <Route path="/bonus/casual" element={<CasualConversations />} />
+          <Route path="/bonus/formal" element={<FormalConversations />} />
+          <Route path="/bonus/ordering" element={<OrderingFood />} />
           <Route path="/basics" element={<Basics />} />
           <Route path="/basics/alphabets" element={<Alphabets />} />
           <Route path="/basics/greetings" element={<Greetings />} />

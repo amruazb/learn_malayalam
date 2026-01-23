@@ -117,7 +117,7 @@
         {"malayalam": "വെള്ളം തരൂ", "transliteration": "veḷḷam tharū"},
         {"malayalam": "എത്ര രൂപ?", "transliteration": "ethra rūpa?"}
       ],
-      "correct": 0,
+      "correctAnswer": 0,
       "explanation": "മെനു കാണിക്കാമോ? (menu kāṇikkāmo?) means 'Can you show the menu?'"
     },
     {
@@ -129,7 +129,7 @@
         {"malayalam": "Is it hot?", "transliteration": ""},
         {"malayalam": "Very tasty", "transliteration": ""}
       ],
-      "correct": 0,
+      "correctAnswer": 0,
       "explanation": "എത്ര രൂപ? (ethra rūpa?) means 'How much?' when asking about price"
     },
     {
@@ -141,7 +141,7 @@
         {"malayalam": "വെള്ളം തരൂ", "transliteration": "veḷḷam tharū"},
         {"malayalam": "മതി", "transliteration": "mati"}
       ],
-      "correct": 1,
+      "correctAnswer": 1,
       "explanation": "ബിൽ തരൂ (bil tharū) means 'Give me the bill'"
     },
     {
@@ -153,7 +153,7 @@
         {"malayalam": "Want", "transliteration": ""},
         {"malayalam": "Tasty", "transliteration": ""}
       ],
-      "correct": 1,
+      "correctAnswer": 1,
       "explanation": "മതി (mati) means 'Enough' or 'That's all' - used when you don't want more"
     },
     {
@@ -165,9 +165,10 @@
         {"malayalam": "എനിക്ക് ഇത് വേണം", "transliteration": "enikku ithu vēṇam"},
         {"malayalam": "കൂടുതൽ വേണോ?", "transliteration": "kūṭuthal vēṇō?"}
       ],
-      "correct": 0,
+      "correctAnswer": 0,
       "explanation": "വളരെ രുചിയുണ്ട് (vaḷare ruchiyuṇṭu) means 'Very tasty'"
     }
   ]
 }
+
 

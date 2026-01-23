@@ -28,18 +28,18 @@ function Dashboard() {
 
   // Calculate day-based progress
   const getDayProgress = () => {
-    const completedDays = [1, 2, 3, 4, 5].filter(day =>
+    const completedDays = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].filter(day =>
       userProgress.some(p => p.lesson_id === `day-${day}` && p.completed)
     ).length
     return completedDays
   }
 
   const getCurrentDay = () => {
-    for (let i = 1; i <= 5; i++) {
+    for (let i = 1; i <= 10; i++) {
       const completed = userProgress.some(p => p.lesson_id === `day-${i}` && p.completed)
       if (!completed) return i
     }
-    return 5 // All completed, show day 5
+    return 10 // All completed, show day 10
   }
 
   // Calculate module progress
@@ -52,7 +52,15 @@ function Dashboard() {
   const completedDays = getDayProgress()
   const completedLessons = userProgress.filter(p => p.completed).length
   const testsTaken = userProgress.length
-  const overallProgress = Math.round((completedDays / 5) * 100) // Based on 5 days
+  const overallProgress = Math.round((completedDays / 10) * 100) // Based on 10 days
+
+  const getBonusProgress = () => {
+    const bonusLessons = ['casual-conversations', 'formal-conversations', 'ordering-food']
+    const completed = bonusLessons.filter(lessonId =>
+      userProgress.some(p => p.lesson_id === lessonId && p.completed)
+    ).length
+    return Math.round((completed / bonusLessons.length) * 100)
+  }
 
   const modules = [
     {
@@ -60,27 +68,27 @@ function Dashboard() {
       description: 'Structured day-by-day learning path',
       path: '/days',
       icon: '📅',
-      lessons: '5 days',
+      lessons: '10 days',
       color: '#667eea',
-      progress: Math.round((completedDays / 5) * 100)
+      progress: Math.round((completedDays / 10) * 100)
+    },
+    {
+      title: 'Bonus Classes',
+      description: 'Extra lessons available anytime',
+      path: '/bonus',
+      icon: '🎁',
+      lessons: '3 available',
+      color: '#fa709a',
+      progress: getBonusProgress()
     },
     {
       title: 'Basics',
       description: 'Alphabets, greetings, and pronouns',
       path: '/basics',
-      icon: '📚',
+      icon: '�',
       lessons: 38,
       color: '#764ba2',
       progress: Math.round((getModuleProgress('alphabets') + getModuleProgress('greetings') + getModuleProgress('pronouns')) / 3)
-    },
-    {
-      title: 'Conversations',
-      description: 'Common phrases for everyday situations',
-      path: '/conversations',
-      icon: '💬',
-      lessons: 27,
-      color: '#4facfe',
-      progress: getModuleProgress('conversations')
     }
   ]
 
@@ -103,7 +111,7 @@ function Dashboard() {
         <div className="stat-card">
           <div className="stat-icon">📅</div>
           <div className="stat-info">
-            <div className="stat-number">{loading ? '...' : `${completedDays}/5`}</div>
+            <div className="stat-number">{loading ? '...' : `${completedDays}/10`}</div>
             <div className="stat-label">Days Completed</div>
           </div>
         </div>
@@ -136,11 +144,11 @@ function Dashboard() {
         <div className="continue-card">
           <div className="continue-icon">📅</div>
           <div className="continue-content">
-            <h3>Day {getCurrentDay()}: {completedDays === 5 ? 'All Days Complete!' : 'Continue Your Journey'}</h3>
-            <p>{completedDays === 5 ? 'You\'ve completed all 5 days! Explore advanced modules.' : `Continue with Day ${getCurrentDay()} to keep learning`}</p>
+            <h3>Day {getCurrentDay()}: {completedDays === 10 ? 'All Days Complete!' : 'Continue Your Journey'}</h3>
+            <p>{completedDays === 10 ? 'You\'ve completed all 10 days! Explore bonus classes.' : `Continue with Day ${getCurrentDay()} to keep learning`}</p>
           </div>
-          <Link to={completedDays === 5 ? '/days' : `/day/${getCurrentDay()}`} className="continue-button">
-            {completedDays === 5 ? 'View All Days' : `Continue Day ${getCurrentDay()}`} →
+          <Link to={completedDays === 10 ? '/days' : `/day/${getCurrentDay()}`} className="continue-button">
+            {completedDays === 10 ? 'View All Days' : `Continue Day ${getCurrentDay()}`} →
           </Link>
         </div>
       </section>

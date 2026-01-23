@@ -1,0 +1,144 @@
+{
+  "day": 6,
+  "title": "Numbers & Counting",
+  "description": "Learn Malayalam numbers and basic counting",
+  "sections": [
+    {
+      "type": "letters",
+      "title": "More Consonants",
+      "description": "Continue learning consonants",
+      "items": [
+        {
+          "id": "day6-consonant-1",
+          "malayalam": "ഭ",
+          "transliteration": "bha",
+          "english": "bha (aspirated)"
+        },
+        {
+          "id": "day6-consonant-2",
+          "malayalam": "മ",
+          "transliteration": "ma",
+          "english": "ma (as in 'mother')"
+        },
+        {
+          "id": "day6-consonant-3",
+          "malayalam": "യ",
+          "transliteration": "ya",
+          "english": "ya (as in 'yes')"
+        },
+        {
+          "id": "day6-consonant-4",
+          "malayalam": "ര",
+          "transliteration": "ra",
+          "english": "ra (as in 'run')"
+        },
+        {
+          "id": "day6-consonant-5",
+          "malayalam": "ല",
+          "transliteration": "la",
+          "english": "la (as in 'love')"
+        }
+      ]
+    },
+    {
+      "type": "words",
+      "title": "Numbers 1-10",
+      "description": "Basic counting in Malayalam",
+      "items": [
+        {
+          "id": "day6-number-1",
+          "malayalam": "ഒന്ന്",
+          "transliteration": "onnu",
+          "english": "One (1)"
+        },
+        {
+          "id": "day6-number-2",
+          "malayalam": "രണ്ട്",
+          "transliteration": "raṇḍu",
+          "english": "Two (2)"
+        },
+        {
+          "id": "day6-number-3",
+          "malayalam": "മൂന്ന്",
+          "transliteration": "mūnnu",
+          "english": "Three (3)"
+        },
+        {
+          "id": "day6-number-4",
+          "malayalam": "നാല്",
+          "transliteration": "nālu",
+          "english": "Four (4)"
+        },
+        {
+          "id": "day6-number-5",
+          "malayalam": "അഞ്ച്",
+          "transliteration": "añchu",
+          "english": "Five (5)"
+        },
+        {
+          "id": "day6-number-6",
+          "malayalam": "പത്ത്",
+          "transliteration": "patthu",
+          "english": "Ten (10)"
+        }
+      ]
+    },
+    {
+      "type": "sentences",
+      "title": "Using Numbers",
+      "description": "Practice numbers in sentences",
+      "items": [
+        {
+          "id": "day6-sentence-1",
+          "malayalam": "എനിക്ക് രണ്ട് വേണം",
+          "transliteration": "enikku raṇḍu vēṇam",
+          "english": "I want two"
+        },
+        {
+          "id": "day6-sentence-2",
+          "malayalam": "ഇത് എത്ര?",
+          "transliteration": "ithu ethra?",
+          "english": "How much is this?"
+        }
+      ]
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "day6-mcq-1",
+      "question": "What is 'ഒന്ന്' in English?",
+      "options": ["One", "Two", "Three", "Four"],
+      "correctAnswer": 0,
+      "malayalam": "ഒന്ന്"
+    },
+    {
+      "id": "day6-mcq-2",
+      "question": "How do you say 'Five' in Malayalam?",
+      "options": ["നാല്", "അഞ്ച്", "മൂന്ന്", "പത്ത്"],
+      "correctAnswer": 1,
+      "malayalam": "അഞ്ച്"
+    },
+    {
+      "id": "day6-mcq-3",
+      "question": "What does 'എത്ര?' mean?",
+      "options": ["How many?", "What?", "Where?", "When?"],
+      "correctAnswer": 0,
+      "malayalam": "എത്ര?"
+    },
+    {
+      "id": "day6-mcq-4",
+      "question": "Which consonant sounds like 'ma'?",
+      "options": ["യ", "മ", "ര", "ല"],
+      "correctAnswer": 1,
+      "malayalam": "മ"
+    },
+    {
+      "id": "day6-mcq-5",
+      "question": "How do you say 'I want two'?",
+      "options": ["എനിക്ക് ഒന്ന് വേണം", "എനിക്ക് രണ്ട് വേണം", "ഇത് എത്ര?", "പത്ത് വേണം"],
+      "correctAnswer": 1,
+      "malayalam": "എനിക്ക് രണ്ട് വേണം"
+    }
+  ]
+}
+
