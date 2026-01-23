@@ -1,0 +1,119 @@
+{
+  "day": 1,
+  "title": "Introduction to Malayalam",
+  "description": "Learn your first Malayalam letters, basic greetings, and simple sentences",
+  "sections": [
+    {
+      "type": "letters",
+      "title": "Malayalam Vowels - Part 1",
+      "description": "Learn the first 5 vowels of Malayalam alphabet",
+      "items": [
+        {
+          "id": "day1-vowel-1",
+          "malayalam": "അ",
+          "transliteration": "a",
+          "english": "a (as in 'about')"
+        },
+        {
+          "id": "day1-vowel-2",
+          "malayalam": "ആ",
+          "transliteration": "ā",
+          "english": "aa (as in 'father')"
+        },
+        {
+          "id": "day1-vowel-3",
+          "malayalam": "ഇ",
+          "transliteration": "i",
+          "english": "i (as in 'sit')"
+        },
+        {
+          "id": "day1-vowel-4",
+          "malayalam": "ഈ",
+          "transliteration": "ī",
+          "english": "ee (as in 'see')"
+        },
+        {
+          "id": "day1-vowel-5",
+          "malayalam": "ഉ",
+          "transliteration": "u",
+          "english": "u (as in 'put')"
+        }
+      ]
+    },
+    {
+      "type": "words",
+      "title": "Basic Greetings",
+      "description": "Essential greetings to start conversations",
+      "items": [
+        {
+          "id": "day1-greeting-1",
+          "malayalam": "നമസ്കാരം",
+          "transliteration": "namaskāram",
+          "english": "Hello (formal)"
+        },
+        {
+          "id": "day1-greeting-2",
+          "malayalam": "ഹായ്",
+          "transliteration": "hai",
+          "english": "Hi"
+        },
+        {
+          "id": "day1-greeting-3",
+          "malayalam": "സുഖമാണോ?",
+          "transliteration": "sukhamāṇō?",
+          "english": "How are you?"
+        }
+      ]
+    },
+    {
+      "type": "sentences",
+      "title": "Simple Sentences",
+      "description": "Your first Malayalam sentences",
+      "items": [
+        {
+          "id": "day1-sentence-1",
+          "malayalam": "എനിക്ക് സുഖമാണ്",
+          "transliteration": "enikku sukhamāṇ",
+          "english": "I am fine"
+        },
+        {
+          "id": "day1-sentence-2",
+          "malayalam": "നന്ദി",
+          "transliteration": "nandi",
+          "english": "Thank you"
+        }
+      ]
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "day1-mcq-1",
+      "question": "What is the Malayalam letter 'അ' pronounced as?",
+      "options": ["a (as in 'about')", "aa (as in 'father')", "i (as in 'sit')", "u (as in 'put')"],
+      "correctAnswer": 0,
+      "malayalam": "അ"
+    },
+    {
+      "id": "day1-mcq-2",
+      "question": "How do you say 'Hello' formally in Malayalam?",
+      "options": ["ഹായ്", "നമസ്കാരം", "സുഖമാണോ?", "നന്ദി"],
+      "correctAnswer": 1,
+      "malayalam": "നമസ്കാരം"
+    },
+    {
+      "id": "day1-mcq-3",
+      "question": "What does 'സുഖമാണോ?' mean?",
+      "options": ["Thank you", "Hello", "How are you?", "Goodbye"],
+      "correctAnswer": 2,
+      "malayalam": "സുഖമാണോ?"
+    },
+    {
+      "id": "day1-mcq-4",
+      "question": "Which vowel sounds like 'ee' in 'see'?",
+      "options": ["അ", "ഇ", "ഈ", "ഉ"],
+      "correctAnswer": 2,
+      "malayalam": "ഈ"
+    }
+  ]
+}
+

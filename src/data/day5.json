@@ -1,0 +1,144 @@
+{
+  "day": 5,
+  "title": "Final Letters & Complete Conversations",
+  "description": "Complete your alphabet learning and master full conversations",
+  "sections": [
+    {
+      "type": "letters",
+      "title": "Final Consonants & Chillaksharangal",
+      "description": "Learn the remaining letters",
+      "items": [
+        {
+          "id": "day5-consonant-1",
+          "malayalam": "ധ",
+          "transliteration": "dha",
+          "english": "dha (dental aspirated)"
+        },
+        {
+          "id": "day5-consonant-2",
+          "malayalam": "ന",
+          "transliteration": "na",
+          "english": "na (dental)"
+        },
+        {
+          "id": "day5-consonant-3",
+          "malayalam": "പ",
+          "transliteration": "pa",
+          "english": "pa (as in 'pen')"
+        },
+        {
+          "id": "day5-consonant-4",
+          "malayalam": "ഫ",
+          "transliteration": "pha",
+          "english": "pha (as in 'phone')"
+        },
+        {
+          "id": "day5-consonant-5",
+          "malayalam": "ബ",
+          "transliteration": "ba",
+          "english": "ba (as in 'bat')"
+        },
+        {
+          "id": "day5-chillu-1",
+          "malayalam": "ൻ",
+          "transliteration": "n",
+          "english": "chillu n"
+        },
+        {
+          "id": "day5-chillu-2",
+          "malayalam": "ർ",
+          "transliteration": "r",
+          "english": "chillu r"
+        }
+      ]
+    },
+    {
+      "type": "words",
+      "title": "Polite & Formal Phrases",
+      "description": "Essential polite expressions",
+      "items": [
+        {
+          "id": "day5-word-1",
+          "malayalam": "ദയവായി",
+          "transliteration": "dayavāyi",
+          "english": "Please"
+        },
+        {
+          "id": "day5-word-2",
+          "malayalam": "ക്ഷമിക്കണം",
+          "transliteration": "kṣamikkaṇam",
+          "english": "Sorry / Excuse me"
+        },
+        {
+          "id": "day5-word-3",
+          "malayalam": "സഹായിക്കാമോ?",
+          "transliteration": "sahāyikkāmō?",
+          "english": "Can you help?"
+        },
+        {
+          "id": "day5-word-4",
+          "malayalam": "മനസ്സിലായി",
+          "transliteration": "manassilāyi",
+          "english": "Understood"
+        }
+      ]
+    },
+    {
+      "type": "sentences",
+      "title": "Complete Conversation Exchanges",
+      "description": "Full conversation examples",
+      "items": [
+        {
+          "id": "day5-sentence-1",
+          "malayalam": "ദയവായി സഹായിക്കാമോ?",
+          "transliteration": "dayavāyi sahāyikkāmō?",
+          "english": "Can you please help?"
+        },
+        {
+          "id": "day5-sentence-2",
+          "malayalam": "എനിക്ക് മനസ്സിലായില്ല",
+          "transliteration": "enikku manassilāyilla",
+          "english": "I didn't understand"
+        }
+      ]
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "day5-mcq-1",
+      "question": "What does 'ദയവായി' mean?",
+      "options": ["Sorry", "Please", "Thank you", "Understood"],
+      "correctAnswer": 1,
+      "malayalam": "ദയവായി"
+    },
+    {
+      "id": "day5-mcq-2",
+      "question": "Which is a chillu letter?",
+      "options": ["പ", "ബ", "ൻ", "ന"],
+      "correctAnswer": 2,
+      "malayalam": "ൻ"
+    },
+    {
+      "id": "day5-mcq-3",
+      "question": "How do you say 'I didn't understand'?",
+      "options": ["മനസ്സിലായി", "എനിക്ക് മനസ്സിലായില്ല", "സഹായിക്കാമോ?", "ക്ഷമിക്കണം"],
+      "correctAnswer": 1,
+      "malayalam": "എനിക്ക് മനസ്സിലായില്ല"
+    },
+    {
+      "id": "day5-mcq-4",
+      "question": "What does 'ക്ഷമിക്കണം' mean?",
+      "options": ["Please", "Sorry / Excuse me", "Thank you", "Help"],
+      "correctAnswer": 1,
+      "malayalam": "ക്ഷമിക്കണം"
+    },
+    {
+      "id": "day5-mcq-5",
+      "question": "Which consonant sounds like 'pa'?",
+      "options": ["ബ", "പ", "ഫ", "ധ"],
+      "correctAnswer": 1,
+      "malayalam": "പ"
+    }
+  ]
+}
+

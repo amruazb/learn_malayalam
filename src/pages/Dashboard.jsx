@@ -26,6 +26,22 @@ function Dashboard() {
     }
   }
 
+  // Calculate day-based progress
+  const getDayProgress = () => {
+    const completedDays = [1, 2, 3, 4, 5].filter(day =>
+      userProgress.some(p => p.lesson_id === `day-${day}` && p.completed)
+    ).length
+    return completedDays
+  }
+
+  const getCurrentDay = () => {
+    for (let i = 1; i <= 5; i++) {
+      const completed = userProgress.some(p => p.lesson_id === `day-${i}` && p.completed)
+      if (!completed) return i
+    }
+    return 5 // All completed, show day 5
+  }
+
   // Calculate module progress
   const getModuleProgress = (moduleId) => {
     const moduleProgress = userProgress.filter(p => p.lesson_id === moduleId && p.completed)
@@ -33,31 +49,32 @@ function Dashboard() {
   }
 
   // Calculate overall stats
+  const completedDays = getDayProgress()
   const completedLessons = userProgress.filter(p => p.completed).length
   const testsTaken = userProgress.length
-  const overallProgress = Math.round((completedLessons / 4) * 100) // 4 modules
+  const overallProgress = Math.round((completedDays / 5) * 100) // Based on 5 days
 
   const modules = [
+    {
+      title: 'Daily Lessons',
+      description: 'Structured day-by-day learning path',
+      path: '/days',
+      icon: '📅',
+      lessons: '5 days',
+      color: '#667eea',
+      progress: Math.round((completedDays / 5) * 100)
+    },
     {
       title: 'Basics',
       description: 'Alphabets, greetings, and pronouns',
       path: '/basics',
       icon: '📚',
       lessons: 38,
-      color: '#667eea',
+      color: '#764ba2',
       progress: Math.round((getModuleProgress('alphabets') + getModuleProgress('greetings') + getModuleProgress('pronouns')) / 3)
     },
     {
-      title: 'Tenses',
-      description: 'Present, past, and future tenses',
-      path: '/tenses',
-      icon: '⏰',
-      lessons: 13,
-      color: '#f093fb',
-      progress: getModuleProgress('tenses')
-    },
-    {
-      title: 'Daily Conversations',
+      title: 'Conversations',
       description: 'Common phrases for everyday situations',
       path: '/conversations',
       icon: '💬',
@@ -84,17 +101,17 @@ function Dashboard() {
       {/* Quick Stats */}
       <section className="quick-stats">
         <div className="stat-card">
-          <div className="stat-icon">📚</div>
+          <div className="stat-icon">📅</div>
           <div className="stat-info">
-            <div className="stat-number">{loading ? '...' : completedLessons}</div>
-            <div className="stat-label">Lessons Completed</div>
+            <div className="stat-number">{loading ? '...' : `${completedDays}/5`}</div>
+            <div className="stat-label">Days Completed</div>
           </div>
         </div>
         <div className="stat-card">
-          <div className="stat-icon">✅</div>
+          <div className="stat-icon">📚</div>
           <div className="stat-info">
-            <div className="stat-number">{loading ? '...' : testsTaken}</div>
-            <div className="stat-label">Tests Taken</div>
+            <div className="stat-number">{loading ? '...' : completedLessons}</div>
+            <div className="stat-label">Total Lessons</div>
           </div>
         </div>
         <div className="stat-card">
@@ -105,10 +122,10 @@ function Dashboard() {
           </div>
         </div>
         <div className="stat-card">
-          <div className="stat-icon">🔥</div>
+          <div className="stat-icon">✅</div>
           <div className="stat-info">
-            <div className="stat-number">0</div>
-            <div className="stat-label">Day Streak</div>
+            <div className="stat-number">{loading ? '...' : testsTaken}</div>
+            <div className="stat-label">Tests Taken</div>
           </div>
         </div>
       </section>
@@ -117,13 +134,13 @@ function Dashboard() {
       <section className="continue-learning">
         <h2 className="section-title">Continue Learning</h2>
         <div className="continue-card">
-          <div className="continue-icon">🚀</div>
+          <div className="continue-icon">📅</div>
           <div className="continue-content">
-            <h3>Start Your First Lesson</h3>
-            <p>Begin with Basic Greetings to learn essential Malayalam phrases</p>
+            <h3>Day {getCurrentDay()}: {completedDays === 5 ? 'All Days Complete!' : 'Continue Your Journey'}</h3>
+            <p>{completedDays === 5 ? 'You\'ve completed all 5 days! Explore advanced modules.' : `Continue with Day ${getCurrentDay()} to keep learning`}</p>
           </div>
-          <Link to="/greetings" className="continue-button">
-            Start Now →
+          <Link to={completedDays === 5 ? '/days' : `/day/${getCurrentDay()}`} className="continue-button">
+            {completedDays === 5 ? 'View All Days' : `Continue Day ${getCurrentDay()}`} →
           </Link>
         </div>
       </section>

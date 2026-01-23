@@ -1,0 +1,143 @@
+{
+  "day": 4,
+  "title": "More Consonants & Daily Conversations",
+  "description": "Continue with consonants and learn casual conversation phrases",
+  "sections": [
+    {
+      "type": "letters",
+      "title": "Malayalam Consonants - Part 2",
+      "description": "Learn 8 more consonants",
+      "items": [
+        {
+          "id": "day4-consonant-1",
+          "malayalam": "ഝ",
+          "transliteration": "jha",
+          "english": "jha (aspirated j)"
+        },
+        {
+          "id": "day4-consonant-2",
+          "malayalam": "ഞ",
+          "transliteration": "ña",
+          "english": "nya (as in 'canyon')"
+        },
+        {
+          "id": "day4-consonant-3",
+          "malayalam": "ട",
+          "transliteration": "ṭa",
+          "english": "ta (retroflex)"
+        },
+        {
+          "id": "day4-consonant-4",
+          "malayalam": "ഠ",
+          "transliteration": "ṭha",
+          "english": "tha (retroflex aspirated)"
+        },
+        {
+          "id": "day4-consonant-5",
+          "malayalam": "ഡ",
+          "transliteration": "ḍa",
+          "english": "da (retroflex)"
+        },
+        {
+          "id": "day4-consonant-6",
+          "malayalam": "ഢ",
+          "transliteration": "ḍha",
+          "english": "dha (retroflex aspirated)"
+        },
+        {
+          "id": "day4-consonant-7",
+          "malayalam": "ണ",
+          "transliteration": "ṇa",
+          "english": "na (retroflex)"
+        },
+        {
+          "id": "day4-consonant-8",
+          "malayalam": "ത",
+          "transliteration": "ta",
+          "english": "tha (dental)"
+        }
+      ]
+    },
+    {
+      "type": "words",
+      "title": "Casual Conversation Words",
+      "description": "Common words for daily conversations",
+      "items": [
+        {
+          "id": "day4-word-1",
+          "malayalam": "എന്താ?",
+          "transliteration": "enthā?",
+          "english": "What?"
+        },
+        {
+          "id": "day4-word-2",
+          "malayalam": "എവിടെയാ?",
+          "transliteration": "eviṭeyā?",
+          "english": "Where?"
+        },
+        {
+          "id": "day4-word-3",
+          "malayalam": "കഴിച്ചോ?",
+          "transliteration": "kaḻiccō?",
+          "english": "Did you eat?"
+        },
+        {
+          "id": "day4-word-4",
+          "malayalam": "വേണം",
+          "transliteration": "vēṇam",
+          "english": "Want/Need"
+        }
+      ]
+    },
+    {
+      "type": "sentences",
+      "title": "Daily Conversation Sentences",
+      "description": "Everyday conversation phrases",
+      "items": [
+        {
+          "id": "day4-sentence-1",
+          "malayalam": "എന്താ വിശേഷം?",
+          "transliteration": "enthā viśēṣam?",
+          "english": "What's up? / What's new?"
+        },
+        {
+          "id": "day4-sentence-2",
+          "malayalam": "എനിക്ക് വെള്ളം വേണം",
+          "transliteration": "enikku veḷḷam vēṇam",
+          "english": "I need water"
+        }
+      ]
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "day4-mcq-1",
+      "question": "What does 'കഴിച്ചോ?' mean?",
+      "options": ["What?", "Where?", "Did you eat?", "Want/Need"],
+      "correctAnswer": 2,
+      "malayalam": "കഴിച്ചോ?"
+    },
+    {
+      "id": "day4-mcq-2",
+      "question": "Which consonant is 'ഞ'?",
+      "options": ["ja", "nya", "ta", "na"],
+      "correctAnswer": 1,
+      "malayalam": "ഞ"
+    },
+    {
+      "id": "day4-mcq-3",
+      "question": "How do you say 'What's up?' in Malayalam?",
+      "options": ["എന്താ?", "എവിടെയാ?", "എന്താ വിശേഷം?", "കഴിച്ചോ?"],
+      "correctAnswer": 2,
+      "malayalam": "എന്താ വിശേഷം?"
+    },
+    {
+      "id": "day4-mcq-4",
+      "question": "What does 'വേണം' mean?",
+      "options": ["What", "Where", "Want/Need", "Water"],
+      "correctAnswer": 2,
+      "malayalam": "വേണം"
+    }
+  ]
+}
+

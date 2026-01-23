@@ -16,13 +16,13 @@ const MCQTest = ({ mcqs, onComplete }) => {
   const handleSubmit = () => {
     if (selectedAnswer === null) return
 
-    const isCorrect = selectedAnswer === mcqs[currentQuestion].correct
+    const isCorrect = selectedAnswer === mcqs[currentQuestion].correctAnswer
     setShowExplanation(true)
-    
+
     if (isCorrect) {
       setScore(score + 1)
     }
-    
+
     setAnsweredQuestions([...answeredQuestions, {
       question: currentQuestion,
       correct: isCorrect
@@ -36,7 +36,7 @@ const MCQTest = ({ mcqs, onComplete }) => {
       setShowExplanation(false)
     } else {
       // Test completed
-      const finalScore = score + (selectedAnswer === mcqs[currentQuestion].correct ? 1 : 0)
+      const finalScore = score + (selectedAnswer === mcqs[currentQuestion].correctAnswer ? 1 : 0)
       const percentage = Math.round((finalScore / mcqs.length) * 100)
       onComplete && onComplete({ score: finalScore, total: mcqs.length, percentage })
     }
@@ -68,8 +68,8 @@ const MCQTest = ({ mcqs, onComplete }) => {
               <button
                 key={index}
                 className={`option ${selectedAnswer === index ? 'selected' : ''}
-                           ${showExplanation && index === question.correct ? 'correct' : ''}
-                           ${showExplanation && selectedAnswer === index && index !== question.correct ? 'incorrect' : ''}`}
+                           ${showExplanation && index === question.correctAnswer ? 'correct' : ''}
+                           ${showExplanation && selectedAnswer === index && index !== question.correctAnswer ? 'incorrect' : ''}`}
                 onClick={() => handleAnswerSelect(index)}
                 disabled={showExplanation}
               >
@@ -88,7 +88,7 @@ const MCQTest = ({ mcqs, onComplete }) => {
         {showExplanation && (
           <div className="explanation">
             <p className="explanation-text">
-              {selectedAnswer === question.correct ? '✅ Correct!' : '❌ Incorrect'}
+              {selectedAnswer === question.correctAnswer ? '✅ Correct!' : '❌ Incorrect'}
             </p>
             <p>{question.explanation}</p>
           </div>

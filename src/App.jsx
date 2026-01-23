@@ -2,6 +2,12 @@ import { BrowserRouter as Router, Routes, Route, Link, useNavigate } from 'react
 import Home from './pages/Home'
 import LandingPage from './pages/LandingPage'
 import Dashboard from './pages/Dashboard'
+import Days from './pages/Days'
+import Day1 from './pages/Day1'
+import Day2 from './pages/Day2'
+import Day3 from './pages/Day3'
+import Day4 from './pages/Day4'
+import Day5 from './pages/Day5'
 import Basics from './pages/Basics'
 import Alphabets from './pages/Alphabets'
 import Greetings from './pages/Greetings'
@@ -32,8 +38,8 @@ function Navigation() {
         </Link>
         <ul className="nav-menu">
           <li><Link to="/">Home</Link></li>
+          <li><Link to="/days">Daily Lessons</Link></li>
           <li><Link to="/basics">Basics</Link></li>
-          <li><Link to="/tenses">Tenses</Link></li>
           <li><Link to="/conversations">Conversations</Link></li>
           <li><Link to="/progress">Progress</Link></li>
           {user ? (
@@ -76,6 +82,12 @@ function AppContent() {
       <main className="main-content">
         <Routes>
           <Route path="/" element={user ? <Dashboard /> : <LandingPage />} />
+          <Route path="/days" element={<Days />} />
+          <Route path="/day/1" element={<Day1 />} />
+          <Route path="/day/2" element={<Day2 />} />
+          <Route path="/day/3" element={<Day3 />} />
+          <Route path="/day/4" element={<Day4 />} />
+          <Route path="/day/5" element={<Day5 />} />
           <Route path="/basics" element={<Basics />} />
           <Route path="/basics/alphabets" element={<Alphabets />} />
           <Route path="/basics/greetings" element={<Greetings />} />

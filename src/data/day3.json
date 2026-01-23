@@ -1,0 +1,143 @@
+{
+  "day": 3,
+  "title": "Consonants & Pronouns",
+  "description": "Learn Malayalam consonants and personal pronouns",
+  "sections": [
+    {
+      "type": "letters",
+      "title": "Malayalam Consonants - Part 1",
+      "description": "Learn the first 8 consonants",
+      "items": [
+        {
+          "id": "day3-consonant-1",
+          "malayalam": "ക",
+          "transliteration": "ka",
+          "english": "ka (as in 'kite')"
+        },
+        {
+          "id": "day3-consonant-2",
+          "malayalam": "ഖ",
+          "transliteration": "kha",
+          "english": "kha (aspirated k)"
+        },
+        {
+          "id": "day3-consonant-3",
+          "malayalam": "ഗ",
+          "transliteration": "ga",
+          "english": "ga (as in 'go')"
+        },
+        {
+          "id": "day3-consonant-4",
+          "malayalam": "ഘ",
+          "transliteration": "gha",
+          "english": "gha (aspirated g)"
+        },
+        {
+          "id": "day3-consonant-5",
+          "malayalam": "ങ",
+          "transliteration": "ṅa",
+          "english": "nga (as in 'sing')"
+        },
+        {
+          "id": "day3-consonant-6",
+          "malayalam": "ച",
+          "transliteration": "ca",
+          "english": "cha (as in 'church')"
+        },
+        {
+          "id": "day3-consonant-7",
+          "malayalam": "ഛ",
+          "transliteration": "cha",
+          "english": "chha (aspirated ch)"
+        },
+        {
+          "id": "day3-consonant-8",
+          "malayalam": "ജ",
+          "transliteration": "ja",
+          "english": "ja (as in 'jump')"
+        }
+      ]
+    },
+    {
+      "type": "words",
+      "title": "Personal Pronouns",
+      "description": "Essential pronouns for daily use",
+      "items": [
+        {
+          "id": "day3-pronoun-1",
+          "malayalam": "ഞാൻ",
+          "transliteration": "ñān",
+          "english": "I"
+        },
+        {
+          "id": "day3-pronoun-2",
+          "malayalam": "നീ",
+          "transliteration": "nī",
+          "english": "You (casual)"
+        },
+        {
+          "id": "day3-pronoun-3",
+          "malayalam": "നിങ്ങൾ",
+          "transliteration": "niṅṅaḷ",
+          "english": "You (formal/plural)"
+        },
+        {
+          "id": "day3-pronoun-4",
+          "malayalam": "അവൻ",
+          "transliteration": "avan",
+          "english": "He"
+        }
+      ]
+    },
+    {
+      "type": "sentences",
+      "title": "Sentences with Pronouns",
+      "description": "Simple sentences using pronouns",
+      "items": [
+        {
+          "id": "day3-sentence-1",
+          "malayalam": "ഞാൻ വിദ്യാർത്ഥിയാണ്",
+          "transliteration": "ñān vidyārthiyāṇ",
+          "english": "I am a student"
+        },
+        {
+          "id": "day3-sentence-2",
+          "malayalam": "നീ എവിടെയാണ്?",
+          "transliteration": "nī eviṭeyāṇ?",
+          "english": "Where are you?"
+        }
+      ]
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "day3-mcq-1",
+      "question": "What is the pronoun for 'I' in Malayalam?",
+      "options": ["നീ", "ഞാൻ", "അവൻ", "നിങ്ങൾ"],
+      "correctAnswer": 1,
+      "malayalam": "ഞാൻ"
+    },
+    {
+      "id": "day3-mcq-2",
+      "question": "Which consonant sounds like 'ka'?",
+      "options": ["ഗ", "ച", "ക", "ജ"],
+      "correctAnswer": 2,
+      "malayalam": "ക"
+    },
+    {
+      "id": "day3-mcq-3",
+      "question": "What does 'നിങ്ങൾ' mean?",
+      "options": ["I", "You (casual)", "You (formal)", "He"],
+      "correctAnswer": 2,
+      "malayalam": "നിങ്ങൾ"
+    },
+    {
+      "id": "day3-mcq-4",
+      "question": "How do you say 'I am a student'?",
+      "options": ["നീ എവിടെയാണ്?", "ഞാൻ വിദ്യാർത്ഥിയാണ്", "അവൻ വിദ്യാർത്ഥിയാണ്", "എനിക്ക് സുഖമാണ്"],
+      "correctAnswer": 1,
+      "malayalam": "ഞാൻ വിദ്യാർത്ഥിയാണ്"
+    }
+  ]
+}
+

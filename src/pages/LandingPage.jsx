@@ -16,11 +16,11 @@ function LandingPage() {
             Join thousands of learners on their language journey!
           </p>
           <div className="hero-buttons">
-            <Link to="/register" className="cta-button primary">
-              Start Learning Free
+            <Link to="/day/1" className="cta-button primary">
+              Start Now
             </Link>
-            <Link to="/login" className="cta-button secondary">
-              Sign In
+            <Link to="/register" className="cta-button secondary">
+              Create Account
             </Link>
           </div>
         </div>

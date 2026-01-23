@@ -1,0 +1,125 @@
+import { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
+import { useAuth } from '../contexts/AuthContext'
+import MCQTest from '../components/MCQTest'
+import { saveProgress, getProgress } from '../services/supabase'
+import day5Data from '../data/day5.json'
+import './LessonPage.css'
+
+const Day5 = () => {
+  const { user } = useAuth()
+  const [showTest, setShowTest] = useState(false)
+  const [testResult, setTestResult] = useState(null)
+  const [isUnlocked, setIsUnlocked] = useState(false)
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    const checkUnlocked = async () => {
+      if (user) {
+        const progress = await getProgress(user.id)
+        const day4Complete = progress.some(p => p.lesson_id === 'day-4' && p.completed)
+        setIsUnlocked(day4Complete)
+      } else {
+        setIsUnlocked(true)
+      }
+      setLoading(false)
+    }
+    checkUnlocked()
+  }, [user])
+
+  const handleTestComplete = async (result) => {
+    setTestResult(result)
+    if (user) {
+      const completed = result.percentage >= 60
+      await saveProgress(user.id, 'day-5', result.score, completed)
+    }
+  }
+
+  if (loading) return <div className="lesson-page"><p>Loading...</p></div>
+
+  if (!isUnlocked && user) {
+    return (
+      <div className="lesson-page">
+        <div className="locked-message">
+          <h2>🔒 Day 5 is Locked</h2>
+          <p>Complete Day 4 with at least 60% to unlock this lesson.</p>
+          <Link to="/day/4" className="next-lesson-btn">Go to Day 4</Link>
+        </div>
+      </div>
+    )
+  }
+
+  return (
+    <div className="lesson-page">
+      <header className="lesson-header">
+        <h1>📅 Day {day5Data.day}: {day5Data.title}</h1>
+        <p>{day5Data.description}</p>
+      </header>
+
+      {!showTest ? (
+        <>
+          {/* Audio Feature Coming Soon Notice */}
+          <div className="coming-soon-notice">
+            <span className="notice-icon">🔊</span>
+            <p><strong>Audio Pronunciation:</strong> Coming Soon! We're working on adding audio features to help you learn pronunciation.</p>
+          </div>
+
+          {day5Data.sections.map((section, index) => (
+            <div key={index} className="lessons-section">
+              <h2>{index === 0 ? '📝' : index === 1 ? '💬' : '✍️'} {section.title}</h2>
+              <p className="section-description">{section.description}</p>
+              <div className="lessons-grid">
+                {section.items.map((item) => (
+                  <div key={item.id} className="lesson-card-text">
+                    <div className="malayalam-text-large">{item.malayalam}</div>
+                    <div className="transliteration-text">{item.transliteration}</div>
+                    <div className="english-text">{item.english}</div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+
+          <div className="test-section">
+            <h2>📝 Ready to Test Your Knowledge?</h2>
+            <p>Complete the quiz to finish your 5-day journey!</p>
+            <button className="start-test-btn" onClick={() => setShowTest(true)}>Take Day 5 Test</button>
+          </div>
+
+          <div className="navigation-section">
+            <Link to="/day/4" className="prev-lesson-btn">← Day 4</Link>
+            <Link to="/days" className="next-lesson-btn">Back to Days</Link>
+          </div>
+        </>
+      ) : !testResult ? (
+        <MCQTest mcqs={day5Data.mcqs} onComplete={handleTestComplete} />
+      ) : (
+        <div className="result-card">
+          <h2>Test Complete!</h2>
+          <div className="score-display">
+            <span className="score-number">{testResult.percentage}%</span>
+            <span className="score-label">Score</span>
+          </div>
+          <p className="result-details">You got {testResult.score} out of {testResult.total} questions correct!</p>
+          {testResult.percentage >= 60 ? (
+            <div className="result-message success">
+              <p>🎉 Congratulations! You've completed all 5 days!</p>
+              <p>You've finished the foundational Malayalam course!</p>
+              <p>Continue exploring with our advanced modules!</p>
+            </div>
+          ) : (
+            <div className="result-message"><p>Keep practicing! You need 60% to complete this day.</p></div>
+          )}
+          <div className="result-actions">
+            <button className="retry-btn" onClick={() => { setShowTest(false); setTestResult(null); }}>Review Lessons</button>
+            <Link to="/days" className="next-lesson-btn">Back to Days</Link>
+            <Link to="/basics" className="next-lesson-btn">Explore Basics Module</Link>
+          </div>
+        </div>
+      )}
+    </div>
+  )
+}
+
+export default Day5
+

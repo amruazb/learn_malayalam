@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { useAuth } from '../contexts/AuthContext'
-import AudioPlayer from '../components/AudioPlayer'
 import MCQTest from '../components/MCQTest'
 import { saveProgress } from '../services/supabase'
 import alphabetsData from '../data/alphabets.json'
@@ -49,43 +48,52 @@ const Alphabets = () => {
 
       {!showTest ? (
         <>
+          {/* Audio Feature Coming Soon Notice */}
+          <div className="coming-soon-notice">
+            <span className="notice-icon">🔊</span>
+            <p><strong>Audio Pronunciation:</strong> Coming Soon! We're working on adding audio features to help you learn pronunciation.</p>
+          </div>
+
           <div className="lessons-section">
             <h2>Vowels (സ്വരങ്ങൾ) - {vowels.length} letters</h2>
             <p className="section-description">The basic vowel sounds in Malayalam</p>
-            {vowels.map((lesson) => (
-              <AudioPlayer
-                key={lesson.id}
-                malayalam={lesson.malayalam}
-                transliteration={lesson.transliteration}
-                english={lesson.english}
-              />
-            ))}
+            <div className="lessons-grid">
+              {vowels.map((lesson) => (
+                <div key={lesson.id} className="lesson-card-text">
+                  <div className="malayalam-text-large">{lesson.malayalam}</div>
+                  <div className="transliteration-text">{lesson.transliteration}</div>
+                  <div className="english-text">{lesson.english}</div>
+                </div>
+              ))}
+            </div>
           </div>
 
           <div className="lessons-section">
             <h2>Consonants (വ്യഞ്ജനങ്ങൾ) - {consonants.length} letters</h2>
             <p className="section-description">The consonant sounds in Malayalam</p>
-            {consonants.map((lesson) => (
-              <AudioPlayer
-                key={lesson.id}
-                malayalam={lesson.malayalam}
-                transliteration={lesson.transliteration}
-                english={lesson.english}
-              />
-            ))}
+            <div className="lessons-grid">
+              {consonants.map((lesson) => (
+                <div key={lesson.id} className="lesson-card-text">
+                  <div className="malayalam-text-large">{lesson.malayalam}</div>
+                  <div className="transliteration-text">{lesson.transliteration}</div>
+                  <div className="english-text">{lesson.english}</div>
+                </div>
+              ))}
+            </div>
           </div>
 
           <div className="lessons-section">
             <h2>Chillaksharangal (ചില്ലക്ഷരങ്ങൾ) - {chillaksharangal.length} letters</h2>
             <p className="section-description">Special consonants without inherent vowel sound</p>
-            {chillaksharangal.map((lesson) => (
-              <AudioPlayer
-                key={lesson.id}
-                malayalam={lesson.malayalam}
-                transliteration={lesson.transliteration}
-                english={lesson.english}
-              />
-            ))}
+            <div className="lessons-grid">
+              {chillaksharangal.map((lesson) => (
+                <div key={lesson.id} className="lesson-card-text">
+                  <div className="malayalam-text-large">{lesson.malayalam}</div>
+                  <div className="transliteration-text">{lesson.transliteration}</div>
+                  <div className="english-text">{lesson.english}</div>
+                </div>
+              ))}
+            </div>
           </div>
 
           <div className="test-section">

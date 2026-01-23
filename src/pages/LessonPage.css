@@ -23,6 +23,69 @@
   font-size: 1.1rem;
 }
 
+.coming-soon-notice {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 20px 30px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+
+.notice-icon {
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+
+.coming-soon-notice p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.coming-soon-notice strong {
+  font-weight: 600;
+}
+
+.lesson-card-text {
+  background: white;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  text-align: center;
+  border-left: 4px solid #667eea;
+}
+
+.lesson-card-text:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.malayalam-text-large {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 12px;
+  font-family: 'Noto Sans Malayalam', sans-serif;
+}
+
+.transliteration-text {
+  font-size: 1.1rem;
+  color: #666;
+  font-style: italic;
+  margin-bottom: 8px;
+}
+
+.english-text {
+  font-size: 1rem;
+  color: #888;
+  font-weight: 500;
+}
+
 .lessons-section {
   background: rgba(255, 255, 255, 0.95);
   border-radius: 16px;

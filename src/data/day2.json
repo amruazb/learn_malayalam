@@ -1,0 +1,119 @@
+{
+  "day": 2,
+  "title": "More Vowels & Time Greetings",
+  "description": "Continue learning vowels and time-based greetings",
+  "sections": [
+    {
+      "type": "letters",
+      "title": "Malayalam Vowels - Part 2",
+      "description": "Learn 5 more vowels",
+      "items": [
+        {
+          "id": "day2-vowel-1",
+          "malayalam": "ഊ",
+          "transliteration": "ū",
+          "english": "oo (as in 'food')"
+        },
+        {
+          "id": "day2-vowel-2",
+          "malayalam": "ഋ",
+          "transliteration": "r̥",
+          "english": "ri (as in 'Krishna')"
+        },
+        {
+          "id": "day2-vowel-3",
+          "malayalam": "എ",
+          "transliteration": "e",
+          "english": "e (as in 'bed')"
+        },
+        {
+          "id": "day2-vowel-4",
+          "malayalam": "ഏ",
+          "transliteration": "ē",
+          "english": "ay (as in 'say')"
+        },
+        {
+          "id": "day2-vowel-5",
+          "malayalam": "ഐ",
+          "transliteration": "ai",
+          "english": "ai (as in 'aisle')"
+        }
+      ]
+    },
+    {
+      "type": "words",
+      "title": "Time-Based Greetings",
+      "description": "Greetings for different times of day",
+      "items": [
+        {
+          "id": "day2-greeting-1",
+          "malayalam": "സുപ്രഭാതം",
+          "transliteration": "suprabhātam",
+          "english": "Good morning"
+        },
+        {
+          "id": "day2-greeting-2",
+          "malayalam": "ശുഭരാത്രി",
+          "transliteration": "śubharātri",
+          "english": "Good night"
+        },
+        {
+          "id": "day2-greeting-3",
+          "malayalam": "വിട",
+          "transliteration": "viṭa",
+          "english": "Goodbye"
+        }
+      ]
+    },
+    {
+      "type": "sentences",
+      "title": "Response Sentences",
+      "description": "Common responses in conversations",
+      "items": [
+        {
+          "id": "day2-sentence-1",
+          "malayalam": "എനിക്കും സുഖമാണ്",
+          "transliteration": "enikkum sukhamāṇ",
+          "english": "I am also fine"
+        },
+        {
+          "id": "day2-sentence-2",
+          "malayalam": "നിങ്ങൾക്ക് എങ്ങനെയുണ്ട്?",
+          "transliteration": "niṅṅaḷkku eṅṅaneyuṇṭ?",
+          "english": "How are you? (formal)"
+        }
+      ]
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "day2-mcq-1",
+      "question": "What is 'Good morning' in Malayalam?",
+      "options": ["ശുഭരാത്രി", "സുപ്രഭാതം", "നമസ്കാരം", "വിട"],
+      "correctAnswer": 1,
+      "malayalam": "സുപ്രഭാതം"
+    },
+    {
+      "id": "day2-mcq-2",
+      "question": "Which vowel sounds like 'oo' in 'food'?",
+      "options": ["ഉ", "ഊ", "എ", "ഏ"],
+      "correctAnswer": 1,
+      "malayalam": "ഊ"
+    },
+    {
+      "id": "day2-mcq-3",
+      "question": "What does 'വിട' mean?",
+      "options": ["Good morning", "Good night", "Goodbye", "Hello"],
+      "correctAnswer": 2,
+      "malayalam": "വിട"
+    },
+    {
+      "id": "day2-mcq-4",
+      "question": "How do you say 'I am also fine'?",
+      "options": ["എനിക്ക് സുഖമാണ്", "എനിക്കും സുഖമാണ്", "സുഖമാണോ?", "നന്ദി"],
+      "correctAnswer": 1,
+      "malayalam": "എനിക്കും സുഖമാണ്"
+    }
+  ]
+}
+

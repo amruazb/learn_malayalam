@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { useAuth } from '../contexts/AuthContext'
-import AudioPlayer from '../components/AudioPlayer'
 import MCQTest from '../components/MCQTest'
 import { saveProgress } from '../services/supabase'
 import greetingsData from '../data/greetings.json'
@@ -44,16 +43,23 @@ const Greetings = () => {
 
       {!showTest ? (
         <>
+          {/* Audio Feature Coming Soon Notice */}
+          <div className="coming-soon-notice">
+            <span className="notice-icon">🔊</span>
+            <p><strong>Audio Pronunciation:</strong> Coming Soon! We're working on adding audio features to help you learn pronunciation.</p>
+          </div>
+
           <div className="lessons-section">
             <h2>Vocabulary & Phrases</h2>
-            {greetingsData.lessons.map((lesson) => (
-              <AudioPlayer
-                key={lesson.id}
-                malayalam={lesson.malayalam}
-                transliteration={lesson.transliteration}
-                english={lesson.english}
-              />
-            ))}
+            <div className="lessons-grid">
+              {greetingsData.lessons.map((lesson) => (
+                <div key={lesson.id} className="lesson-card-text">
+                  <div className="malayalam-text-large">{lesson.malayalam}</div>
+                  <div className="transliteration-text">{lesson.transliteration}</div>
+                  <div className="english-text">{lesson.english}</div>
+                </div>
+              ))}
+            </div>
           </div>
 
           <div className="test-section">
