@@ -2,11 +2,11 @@ import { useState, useEffect } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { useAuth } from '../contexts/AuthContext'
 import MCQTest from '../components/MCQTest'
-import { saveProgress, getUserProgress } from '../services/supabase'
+import { saveProgress, getProgress } from '../services/supabase'
 import day9Data from '../data/day9.json'
 import './LessonPage.css'
 
-const day9 = () => {
+const Day9 = () => {
   const { user } = useAuth()
   const navigate = useNavigate()
   const [showTest, setShowTest] = useState(false)
@@ -17,7 +17,7 @@ const day9 = () => {
   useEffect(() => {
     const checkUnlocked = async () => {
       if (user) {
-        const progress = await getUserProgress(user.id)
+        const progress = await getProgress(user.id)
         const day5Completed = progress.some(p => p.lesson_id === 'day-8' && p.completed)
         setIsUnlocked(day5Completed)
       } else {
@@ -150,6 +150,8 @@ const day9 = () => {
   )
 }
 
-export default day9
+export default Day9
+
+
 
 

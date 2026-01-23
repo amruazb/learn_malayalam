@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { useAuth } from '../contexts/AuthContext'
 import MCQTest from '../components/MCQTest'
-import { saveProgress, getUserProgress } from '../services/supabase'
+import { saveProgress, getProgress } from '../services/supabase'
 import day6Data from '../data/day6.json'
 import './LessonPage.css'
 
@@ -17,7 +17,7 @@ const Day6 = () => {
   useEffect(() => {
     const checkUnlocked = async () => {
       if (user) {
-        const progress = await getUserProgress(user.id)
+        const progress = await getProgress(user.id)
         const day5Completed = progress.some(p => p.lesson_id === 'day-5' && p.completed)
         setIsUnlocked(day5Completed)
       } else {
