@@ -1,0 +1,160 @@
+{
+  "title": "Conversations with Maid",
+  "lessons": [
+    {
+      "id": "maid-1",
+      "malayalam": "ഇന്ന് വേണ്ട",
+      "transliteration": "innu vēṇṭa",
+      "english": "Not needed today",
+      "category": "instruction"
+    },
+    {
+      "id": "maid-2",
+      "malayalam": "നാളെ വരൂ",
+      "transliteration": "nāḷe varū",
+      "english": "Come tomorrow",
+      "category": "instruction"
+    },
+    {
+      "id": "maid-3",
+      "malayalam": "ഇടം വൃത്തിയാക്കൂ",
+      "transliteration": "iṭam vr̥thiyākkū",
+      "english": "Clean this place / room",
+      "category": "instruction"
+    },
+    {
+      "id": "maid-4",
+      "malayalam": "ബത്തിരി അലക്കൂ",
+      "transliteration": "bathiri alakkū",
+      "english": "Wash the clothes",
+      "category": "instruction"
+    },
+    {
+      "id": "maid-5",
+      "malayalam": "ചോറ് വെക്കൂ",
+      "transliteration": "chōr vekkū",
+      "english": "Cook rice",
+      "category": "instruction"
+    },
+    {
+      "id": "maid-6",
+      "malayalam": "വെള്ളം നിറക്കൂ",
+      "transliteration": "veḷḷam niṟakkū",
+      "english": "Fill the water",
+      "category": "instruction"
+    },
+    {
+      "id": "maid-7",
+      "malayalam": "പാത്രം കഴുകൂ",
+      "transliteration": "pāthram kazhukū",
+      "english": "Wash the vessels / dishes",
+      "category": "instruction"
+    },
+    {
+      "id": "maid-8",
+      "malayalam": "ഇത് ഇവിടെ വെക്കൂ",
+      "transliteration": "ithu iviṭe vekkū",
+      "english": "Keep this here",
+      "category": "instruction"
+    },
+    {
+      "id": "maid-9",
+      "malayalam": "കുറച്ച് നേരം കാത്തിരിക്കൂ",
+      "transliteration": "kuṟachu nēram kāthirikkū",
+      "english": "Wait for a while",
+      "category": "instruction"
+    },
+    {
+      "id": "maid-10",
+      "malayalam": "എപ്പോൾ വരും?",
+      "transliteration": "eppōḷ varum?",
+      "english": "When will you come?",
+      "category": "question"
+    },
+    {
+      "id": "maid-11",
+      "malayalam": "നാളെ രാവിലെ വരാം",
+      "transliteration": "nāḷe rāvile varām",
+      "english": "I'll come tomorrow morning",
+      "category": "response"
+    },
+    {
+      "id": "maid-12",
+      "malayalam": "ചെയ്തു",
+      "transliteration": "cheythu",
+      "english": "Done (I did it)",
+      "category": "response"
+    },
+    {
+      "id": "maid-13",
+      "malayalam": "ഇനി പോകാം?",
+      "transliteration": "ini pōkām?",
+      "english": "Can I go now?",
+      "category": "question"
+    },
+    {
+      "id": "maid-14",
+      "malayalam": "പോകാം",
+      "transliteration": "pōkām",
+      "english": "You can go",
+      "category": "response"
+    },
+    {
+      "id": "maid-15",
+      "malayalam": "ഇത് എടുത്ത് പോകൂ",
+      "transliteration": "ithu eṭutthu pōkū",
+      "english": "Take this and go",
+      "category": "instruction"
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "mcq-maid-1",
+      "question": "How do you say 'Come tomorrow' to the maid?",
+      "options": [
+        {"malayalam": "ഇന്ന് വരൂ", "transliteration": "innu varū"},
+        {"malayalam": "നാളെ വരൂ", "transliteration": "nāḷe varū"},
+        {"malayalam": "ഇന്ന് വേണ്ട", "transliteration": "innu vēṇṭa"},
+        {"malayalam": "പോകാം", "transliteration": "pōkām"}
+      ],
+      "correctAnswer": 1,
+      "explanation": "നാളെ വരൂ (nāḷe varū) means 'Come tomorrow'"
+    },
+    {
+      "id": "mcq-maid-2",
+      "question": "What does 'ബത്തിരി അലക്കൂ' (bathiri alakkū) mean?",
+      "options": [
+        {"malayalam": "Cook rice", "transliteration": ""},
+        {"malayalam": "Wash the clothes", "transliteration": ""},
+        {"malayalam": "Clean the room", "transliteration": ""},
+        {"malayalam": "Fill water", "transliteration": ""}
+      ],
+      "correctAnswer": 1,
+      "explanation": "ബത്തിരി അലക്കൂ means 'Wash the clothes'"
+    },
+    {
+      "id": "mcq-maid-3",
+      "question": "How do you say 'Cook rice'?",
+      "options": [
+        {"malayalam": "ചോറ് വെക്കൂ", "transliteration": "chōr vekkū"},
+        {"malayalam": "പാത്രം കഴുകൂ", "transliteration": "pāthram kazhukū"},
+        {"malayalam": "വെള്ളം നിറക്കൂ", "transliteration": "veḷḷam niṟakkū"},
+        {"malayalam": "ഇടം വൃത്തിയാക്കൂ", "transliteration": "iṭam vr̥thiyākkū"}
+      ],
+      "correctAnswer": 0,
+      "explanation": "ചോറ് വെക്കൂ (chōr vekkū) means 'Cook rice'"
+    },
+    {
+      "id": "mcq-maid-4",
+      "question": "What does 'ചെയ്തു' (cheythu) mean when the maid says it?",
+      "options": [
+        {"malayalam": "Please", "transliteration": ""},
+        {"malayalam": "Done / I did it", "transliteration": ""},
+        {"malayalam": "Come", "transliteration": ""},
+        {"malayalam": "Wait", "transliteration": ""}
+      ],
+      "correctAnswer": 1,
+      "explanation": "ചെയ്തു (cheythu) means 'Done' or 'I did it'"
+    }
+  ]
+}

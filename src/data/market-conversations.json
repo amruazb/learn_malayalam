@@ -1,0 +1,160 @@
+{
+  "title": "Market Conversations",
+  "lessons": [
+    {
+      "id": "market-1",
+      "malayalam": "ഇത് എത്ര?",
+      "transliteration": "ithu ethra?",
+      "english": "How much is this?",
+      "category": "price"
+    },
+    {
+      "id": "market-2",
+      "malayalam": "എത്ര രൂപ?",
+      "transliteration": "ethra rūpa?",
+      "english": "How much in rupees?",
+      "category": "price"
+    },
+    {
+      "id": "market-3",
+      "malayalam": "കുറച്ച് കിട്ടില്ലേ?",
+      "transliteration": "kuṟachu kiṭṭillē?",
+      "english": "Can't you reduce the price?",
+      "category": "bargaining"
+    },
+    {
+      "id": "market-4",
+      "malayalam": "ഡിസ്കൗണ്ട് ഇല്ലേ?",
+      "transliteration": "ḍiskaunṭ illē?",
+      "english": "No discount?",
+      "category": "bargaining"
+    },
+    {
+      "id": "market-5",
+      "malayalam": "വളരെ ചെലവാണ്",
+      "transliteration": "vaḷare chelavāṇ",
+      "english": "It's too expensive",
+      "category": "bargaining"
+    },
+    {
+      "id": "market-6",
+      "malayalam": "ഇത് തരാമോ?",
+      "transliteration": "ithu tharāmō?",
+      "english": "Can you give this?",
+      "category": "buying"
+    },
+    {
+      "id": "market-7",
+      "malayalam": "എനിക്ക് ഇത് വേണം",
+      "transliteration": "enikku ithu vēṇam",
+      "english": "I want this",
+      "category": "buying"
+    },
+    {
+      "id": "market-8",
+      "malayalam": "അര കിലോ തരൂ",
+      "transliteration": "ara kilō tharū",
+      "english": "Give me half a kilo",
+      "category": "quantity"
+    },
+    {
+      "id": "market-9",
+      "malayalam": "ഒന്ന് കിലോ വേണം",
+      "transliteration": "onnu kilō vēṇam",
+      "english": "I need one kilo",
+      "category": "quantity"
+    },
+    {
+      "id": "market-10",
+      "malayalam": "പുതിയതാണോ?",
+      "transliteration": "puthiyathāṇō?",
+      "english": "Is it fresh?",
+      "category": "question"
+    },
+    {
+      "id": "market-11",
+      "malayalam": "ഇത് തന്നെ മതി",
+      "transliteration": "ithu thanne mathi",
+      "english": "This much is enough",
+      "category": "response"
+    },
+    {
+      "id": "market-12",
+      "malayalam": "പണം എവിടെ കൊടുക്കും?",
+      "transliteration": "paṇam eviṭe koṭukkum?",
+      "english": "Where do I pay?",
+      "category": "payment"
+    },
+    {
+      "id": "market-13",
+      "malayalam": "ബാഗ് തരാമോ?",
+      "transliteration": "bāg tharāmō?",
+      "english": "Can you give a bag?",
+      "category": "request"
+    },
+    {
+      "id": "market-14",
+      "malayalam": "നല്ലത് തരൂ",
+      "transliteration": "nallath tharū",
+      "english": "Give me a good one",
+      "category": "request"
+    },
+    {
+      "id": "market-15",
+      "malayalam": "വേണ്ട, മതി",
+      "transliteration": "vēṇṭa, mathi",
+      "english": "No need, that's enough",
+      "category": "response"
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "mcq-market-1",
+      "question": "How do you ask 'How much is this?' at the market?",
+      "options": [
+        {"malayalam": "ഇത് എത്ര?", "transliteration": "ithu ethra?"},
+        {"malayalam": "ഇത് തരാമോ?", "transliteration": "ithu tharāmō?"},
+        {"malayalam": "പുതിയതാണോ?", "transliteration": "puthiyathāṇō?"},
+        {"malayalam": "വേണ്ട, മതി", "transliteration": "vēṇṭa, mathi"}
+      ],
+      "correctAnswer": 0,
+      "explanation": "ഇത് എത്ര? (ithu ethra?) means 'How much is this?'"
+    },
+    {
+      "id": "mcq-market-2",
+      "question": "What does 'വളരെ ചെലവാണ്' (vaḷare chelavāṇ) mean?",
+      "options": [
+        {"malayalam": "Very cheap", "transliteration": ""},
+        {"malayalam": "It's too expensive", "transliteration": ""},
+        {"malayalam": "Give discount", "transliteration": ""},
+        {"malayalam": "I want this", "transliteration": ""}
+      ],
+      "correctAnswer": 1,
+      "explanation": "വളരെ ചെലവാണ് means 'It's too expensive'"
+    },
+    {
+      "id": "mcq-market-3",
+      "question": "How do you say 'Give me half a kilo'?",
+      "options": [
+        {"malayalam": "ഒന്ന് കിലോ വേണം", "transliteration": "onnu kilō vēṇam"},
+        {"malayalam": "അര കിലോ തരൂ", "transliteration": "ara kilō tharū"},
+        {"malayalam": "ഇത് തന്നെ മതി", "transliteration": "ithu thanne mathi"},
+        {"malayalam": "നല്ലത് തരൂ", "transliteration": "nallath tharū"}
+      ],
+      "correctAnswer": 1,
+      "explanation": "അര കിലോ തരൂ (ara kilō tharū) means 'Give me half a kilo'"
+    },
+    {
+      "id": "mcq-market-4",
+      "question": "What do you say to ask for a discount?",
+      "options": [
+        {"malayalam": "എത്ര രൂപ?", "transliteration": "ethra rūpa?"},
+        {"malayalam": "ഡിസ്കൗണ്ട് ഇല്ലേ?", "transliteration": "ḍiskaunṭ illē?"},
+        {"malayalam": "ഇത് തരാമോ?", "transliteration": "ithu tharāmō?"},
+        {"malayalam": "വേണ്ട, മതി", "transliteration": "vēṇṭa, mathi"}
+      ],
+      "correctAnswer": 1,
+      "explanation": "ഡിസ്കൗണ്ട് ഇല്ലേ? (ḍiskaunṭ illē?) means 'No discount?'"
+    }
+  ]
+}

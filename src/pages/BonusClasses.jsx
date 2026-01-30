@@ -35,6 +35,16 @@ function BonusClasses() {
 
   const bonusLessons = [
     {
+      title: 'Formal Conversations',
+      description: 'Professional and respectful communication',
+      path: '/bonus/formal',
+      icon: '🤝',
+      lessonId: 'formal-conversations',
+      color: '#667eea',
+      items: 10,
+      available: true
+    },
+    {
       title: 'Casual Conversations',
       description: 'Everyday informal conversations with friends',
       path: '/bonus/casual',
@@ -45,13 +55,33 @@ function BonusClasses() {
       available: true
     },
     {
-      title: 'Formal Conversations',
-      description: 'Professional and respectful communication',
-      path: '/bonus/formal',
-      icon: '🤝',
-      lessonId: 'formal-conversations',
-      color: '#667eea',
-      items: 10,
+      title: 'Very Casual Talk',
+      description: 'Slang and words used in very casual talks',
+      path: '/bonus/very-casual',
+      icon: '😎',
+      lessonId: 'very-casual-conversations',
+      color: '#a8edea',
+      items: 15,
+      available: true
+    },
+    {
+      title: 'Conversations with Maid',
+      description: 'Talking to maid and household help',
+      path: '/bonus/maid',
+      icon: '🏠',
+      lessonId: 'maid-conversations',
+      color: '#fed6e3',
+      items: 15,
+      available: true
+    },
+    {
+      title: 'Market Conversations',
+      description: 'Buying, bargaining, and talking at the market',
+      path: '/bonus/market',
+      icon: '🛒',
+      lessonId: 'market-conversations',
+      color: '#fa709a',
+      items: 15,
       available: true
     },
     {
@@ -63,16 +93,6 @@ function BonusClasses() {
       color: '#f093fb',
       items: 15,
       available: true
-    },
-    {
-      title: 'Shopping & Bargaining',
-      description: 'Market conversations and price negotiations',
-      path: '/bonus/shopping',
-      icon: '🛍️',
-      lessonId: 'shopping',
-      color: '#fa709a',
-      items: 12,
-      available: false
     },
     {
       title: 'Business Malayalam',

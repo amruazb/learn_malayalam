@@ -1,0 +1,160 @@
+{
+  "title": "Very Casual Talk",
+  "lessons": [
+    {
+      "id": "vc-1",
+      "malayalam": "ഡാ",
+      "transliteration": "ḍā",
+      "english": "Hey! (very casual, to get attention)",
+      "category": "greeting"
+    },
+    {
+      "id": "vc-2",
+      "malayalam": "മോനേ",
+      "transliteration": "mōnē",
+      "english": "Boy / dude (casual address to a guy)",
+      "category": "address"
+    },
+    {
+      "id": "vc-3",
+      "malayalam": "മോളേ",
+      "transliteration": "mōḷē",
+      "english": "Girl (casual address to a girl)",
+      "category": "address"
+    },
+    {
+      "id": "vc-4",
+      "malayalam": "ശരി",
+      "transliteration": "śari",
+      "english": "Okay / alright (very common)",
+      "category": "response"
+    },
+    {
+      "id": "vc-5",
+      "malayalam": "സൂപ്പർ",
+      "transliteration": "sūppar",
+      "english": "Super! (great, awesome)",
+      "category": "reaction"
+    },
+    {
+      "id": "vc-6",
+      "malayalam": "ചുമ്മ",
+      "transliteration": "chumma",
+      "english": "Just like that / no reason / for fun",
+      "category": "filler"
+    },
+    {
+      "id": "vc-7",
+      "malayalam": "പൊളി",
+      "transliteration": "poḷi",
+      "english": "Great! / Awesome! (slang)",
+      "category": "reaction"
+    },
+    {
+      "id": "vc-8",
+      "malayalam": "കൊള്ളാം",
+      "transliteration": "koḷḷām",
+      "english": "Nice! / Good! (approval)",
+      "category": "reaction"
+    },
+    {
+      "id": "vc-9",
+      "malayalam": "അയ്യോ",
+      "transliteration": "ayyō",
+      "english": "Oh no! / Oops! (reaction)",
+      "category": "reaction"
+    },
+    {
+      "id": "vc-10",
+      "malayalam": "എന്താ?",
+      "transliteration": "enthā?",
+      "english": "What? (very casual)",
+      "category": "question"
+    },
+    {
+      "id": "vc-11",
+      "malayalam": "സോ എന്താ?",
+      "transliteration": "sō enthā?",
+      "english": "So what? (dismissive casual)",
+      "category": "response"
+    },
+    {
+      "id": "vc-12",
+      "malayalam": "വരാം",
+      "transliteration": "varām",
+      "english": "Let's go / Come on (casual)",
+      "category": "invitation"
+    },
+    {
+      "id": "vc-13",
+      "malayalam": "പോകാം",
+      "transliteration": "pōkām",
+      "english": "Let's go (casual)",
+      "category": "invitation"
+    },
+    {
+      "id": "vc-14",
+      "malayalam": "എടാ / എടീ",
+      "transliteration": "eṭā / eṭī",
+      "english": "Hey you (very casual, to friend)",
+      "category": "address"
+    },
+    {
+      "id": "vc-15",
+      "malayalam": "ആയിരിക്കും",
+      "transliteration": "āyirikkum",
+      "english": "Maybe / Could be (casual)",
+      "category": "response"
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "mcq-vc-1",
+      "question": "How do you say 'Okay' very casually?",
+      "options": [
+        {"malayalam": "ശരി", "transliteration": "śari"},
+        {"malayalam": "നമസ്കാരം", "transliteration": "namaskāram"},
+        {"malayalam": "നന്ദി", "transliteration": "nandi"},
+        {"malayalam": "ദയവായി", "transliteration": "dayavāyi"}
+      ],
+      "correctAnswer": 0,
+      "explanation": "ശരി (śari) is the very casual way to say 'Okay' or 'Alright'"
+    },
+    {
+      "id": "mcq-vc-2",
+      "question": "What does 'ചുമ്മ' (chumma) mean?",
+      "options": [
+        {"malayalam": "Please", "transliteration": ""},
+        {"malayalam": "Just like that / for no reason", "transliteration": ""},
+        {"malayalam": "Thank you", "transliteration": ""},
+        {"malayalam": "Sorry", "transliteration": ""}
+      ],
+      "correctAnswer": 1,
+      "explanation": "ചുമ്മ (chumma) means 'just like that' or 'for fun' - very casual"
+    },
+    {
+      "id": "mcq-vc-3",
+      "question": "How do you say 'Super!' or 'Awesome!' in very casual Malayalam?",
+      "options": [
+        {"malayalam": "സൂപ്പർ", "transliteration": "sūppar"},
+        {"malayalam": "നമസ്കാരം", "transliteration": "namaskāram"},
+        {"malayalam": "ദയവായി", "transliteration": "dayavāyi"},
+        {"malayalam": "ക്ഷമിക്കണം", "transliteration": "kṣamikkaṇam"}
+      ],
+      "correctAnswer": 0,
+      "explanation": "സൂപ്പർ (sūppar) is used for 'super' or 'awesome' in casual talk"
+    },
+    {
+      "id": "mcq-vc-4",
+      "question": "What does 'അയ്യോ' (ayyō) express?",
+      "options": [
+        {"malayalam": "Happy", "transliteration": ""},
+        {"malayalam": "Oh no! / Oops!", "transliteration": ""},
+        {"malayalam": "Thank you", "transliteration": ""},
+        {"malayalam": "Goodbye", "transliteration": ""}
+      ],
+      "correctAnswer": 1,
+      "explanation": "അയ്യോ (ayyō) is a reaction like 'Oh no!' or 'Oops!'"
+    }
+  ]
+}

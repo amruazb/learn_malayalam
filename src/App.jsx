@@ -16,6 +16,9 @@ import Day10 from './pages/Day10'
 import BonusClasses from './pages/BonusClasses'
 import CasualConversations from './pages/CasualConversations'
 import FormalConversations from './pages/FormalConversations'
+import VeryCasualConversations from './pages/VeryCasualConversations'
+import MaidConversations from './pages/MaidConversations'
+import MarketConversations from './pages/MarketConversations'
 import OrderingFood from './pages/OrderingFood'
 import Basics from './pages/Basics'
 import Alphabets from './pages/Alphabets'
@@ -105,6 +108,9 @@ function AppContent() {
           <Route path="/bonus" element={<BonusClasses />} />
           <Route path="/bonus/casual" element={<CasualConversations />} />
           <Route path="/bonus/formal" element={<FormalConversations />} />
+          <Route path="/bonus/very-casual" element={<VeryCasualConversations />} />
+          <Route path="/bonus/maid" element={<MaidConversations />} />
+          <Route path="/bonus/market" element={<MarketConversations />} />
           <Route path="/bonus/ordering" element={<OrderingFood />} />
           <Route path="/basics" element={<Basics />} />
           <Route path="/basics/alphabets" element={<Alphabets />} />
