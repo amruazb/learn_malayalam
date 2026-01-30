@@ -107,35 +107,60 @@
     {
       "id": "day7-mcq-1",
       "question": "What does 'അമ്മ' mean?",
-      "options": ["Father", "Mother", "Sister", "Brother"],
+      "options": [
+        {"malayalam": "Father", "transliteration": ""},
+        {"malayalam": "Mother", "transliteration": ""},
+        {"malayalam": "Sister", "transliteration": ""},
+        {"malayalam": "Brother", "transliteration": ""}
+      ],
       "correctAnswer": 1,
       "malayalam": "അമ്മ"
     },
     {
       "id": "day7-mcq-2",
       "question": "How do you say 'Family' in Malayalam?",
-      "options": ["കുട്ടി", "കുടുംബം", "സഹോദരൻ", "അച്ഛൻ"],
+      "options": [
+        {"malayalam": "കുട്ടി", "transliteration": "kuṭṭi"},
+        {"malayalam": "കുടുംബം", "transliteration": "kuḍumbam"},
+        {"malayalam": "സഹോദരൻ", "transliteration": "sahōdaran"},
+        {"malayalam": "അച്ഛൻ", "transliteration": "acchan"}
+      ],
       "correctAnswer": 1,
       "malayalam": "കുടുംബം"
     },
     {
       "id": "day7-mcq-3",
       "question": "What is 'സഹോദരി'?",
-      "options": ["Brother", "Sister", "Mother", "Child"],
+      "options": [
+        {"malayalam": "Brother", "transliteration": ""},
+        {"malayalam": "Sister", "transliteration": ""},
+        {"malayalam": "Mother", "transliteration": ""},
+        {"malayalam": "Child", "transliteration": ""}
+      ],
       "correctAnswer": 1,
       "malayalam": "സഹോദരി"
     },
     {
       "id": "day7-mcq-4",
       "question": "Which consonant sounds like 'ha'?",
-      "options": ["വ", "ശ", "സ", "ഹ"],
+      "options": [
+        {"malayalam": "വ", "transliteration": "va"},
+        {"malayalam": "ശ", "transliteration": "ša"},
+        {"malayalam": "സ", "transliteration": "sa"},
+        {"malayalam": "ഹ", "transliteration": "ha"}
+      ],
       "correctAnswer": 3,
       "malayalam": "ഹ"
     },
     {
       "id": "day7-mcq-5",
       "question": "How do you say 'This is my mother'?",
-      "options": ["എന്റെ കുടുംബം", "ഇത് എന്റെ അമ്മയാണ്", "അമ്മ വലുതാണ്", "എന്റെ അച്ഛൻ"],
+      "options": [
+        {"malayalam": "എന്റെ കുടുംബം", "transliteration": "ente kuḍumbam"},
+        {"malayalam": "ഇത് എന്റെ അമ്മയാണ്", "transliteration": "ithu ente ammayāṇ"},
+        {"malayalam": "അമ്മ വലുതാണ്", "transliteration": "amma valuthāṇ"},
+        {"malayalam": "എന്റെ അച്ഛൻ", "transliteration": "ente acchan"}
+      ],
       "correctAnswer": 1,
       "malayalam": "ഇത് എന്റെ അമ്മയാണ്"
     }

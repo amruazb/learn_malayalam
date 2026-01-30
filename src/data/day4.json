@@ -113,28 +113,48 @@
     {
       "id": "day4-mcq-1",
       "question": "What does 'കഴിച്ചോ?' mean?",
-      "options": ["What?", "Where?", "Did you eat?", "Want/Need"],
+      "options": [
+        {"malayalam": "What?", "transliteration": ""},
+        {"malayalam": "Where?", "transliteration": ""},
+        {"malayalam": "Did you eat?", "transliteration": ""},
+        {"malayalam": "Want/Need", "transliteration": ""}
+      ],
       "correctAnswer": 2,
       "malayalam": "കഴിച്ചോ?"
     },
     {
       "id": "day4-mcq-2",
       "question": "Which consonant is 'ഞ'?",
-      "options": ["ja", "nya", "ta", "na"],
+      "options": [
+        {"malayalam": "ja", "transliteration": ""},
+        {"malayalam": "nya", "transliteration": ""},
+        {"malayalam": "ta", "transliteration": ""},
+        {"malayalam": "na", "transliteration": ""}
+      ],
       "correctAnswer": 1,
       "malayalam": "ഞ"
     },
     {
       "id": "day4-mcq-3",
       "question": "How do you say 'What's up?' in Malayalam?",
-      "options": ["എന്താ?", "എവിടെയാ?", "എന്താ വിശേഷം?", "കഴിച്ചോ?"],
+      "options": [
+        {"malayalam": "എന്താ?", "transliteration": "enthā?"},
+        {"malayalam": "എവിടെയാ?", "transliteration": "eviṭeyā?"},
+        {"malayalam": "എന്താ വിശേഷം?", "transliteration": "enthā viśēṣam?"},
+        {"malayalam": "കഴിച്ചോ?", "transliteration": "kaḻiccō?"}
+      ],
       "correctAnswer": 2,
       "malayalam": "എന്താ വിശേഷം?"
     },
     {
       "id": "day4-mcq-4",
       "question": "What does 'വേണം' mean?",
-      "options": ["What", "Where", "Want/Need", "Water"],
+      "options": [
+        {"malayalam": "What", "transliteration": ""},
+        {"malayalam": "Where", "transliteration": ""},
+        {"malayalam": "Want/Need", "transliteration": ""},
+        {"malayalam": "Water", "transliteration": ""}
+      ],
       "correctAnswer": 2,
       "malayalam": "വേണം"
     }

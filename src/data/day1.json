@@ -89,28 +89,48 @@
     {
       "id": "day1-mcq-1",
       "question": "What is the Malayalam letter 'അ' pronounced as?",
-      "options": ["a (as in 'about')", "aa (as in 'father')", "i (as in 'sit')", "u (as in 'put')"],
+      "options": [
+        {"malayalam": "a (as in 'about')", "transliteration": ""},
+        {"malayalam": "aa (as in 'father')", "transliteration": ""},
+        {"malayalam": "i (as in 'sit')", "transliteration": ""},
+        {"malayalam": "u (as in 'put')", "transliteration": ""}
+      ],
       "correctAnswer": 0,
       "malayalam": "അ"
     },
     {
       "id": "day1-mcq-2",
       "question": "How do you say 'Hello' formally in Malayalam?",
-      "options": ["ഹായ്", "നമസ്കാരം", "സുഖമാണോ?", "നന്ദി"],
+      "options": [
+        {"malayalam": "ഹായ്", "transliteration": "hai"},
+        {"malayalam": "നമസ്കാരം", "transliteration": "namaskāram"},
+        {"malayalam": "സുഖമാണോ?", "transliteration": "sukhamāṇo?"},
+        {"malayalam": "നന്ദി", "transliteration": "nandi"}
+      ],
       "correctAnswer": 1,
       "malayalam": "നമസ്കാരം"
     },
     {
       "id": "day1-mcq-3",
       "question": "What does 'സുഖമാണോ?' mean?",
-      "options": ["Thank you", "Hello", "How are you?", "Goodbye"],
+      "options": [
+        {"malayalam": "Thank you", "transliteration": ""},
+        {"malayalam": "Hello", "transliteration": ""},
+        {"malayalam": "How are you?", "transliteration": ""},
+        {"malayalam": "Goodbye", "transliteration": ""}
+      ],
       "correctAnswer": 2,
       "malayalam": "സുഖമാണോ?"
     },
     {
       "id": "day1-mcq-4",
       "question": "Which vowel sounds like 'ee' in 'see'?",
-      "options": ["അ", "ഇ", "ഈ", "ഉ"],
+      "options": [
+        {"malayalam": "അ", "transliteration": "a"},
+        {"malayalam": "ഇ", "transliteration": "i"},
+        {"malayalam": "ഈ", "transliteration": "ī"},
+        {"malayalam": "ഉ", "transliteration": "u"}
+      ],
       "correctAnswer": 2,
       "malayalam": "ഈ"
     }

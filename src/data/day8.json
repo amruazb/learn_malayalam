@@ -101,35 +101,60 @@
     {
       "id": "day8-mcq-1",
       "question": "What color is 'ചുവപ്പ്'?",
-      "options": ["Blue", "Red", "Green", "Yellow"],
+      "options": [
+        {"malayalam": "Blue", "transliteration": ""},
+        {"malayalam": "Red", "transliteration": ""},
+        {"malayalam": "Green", "transliteration": ""},
+        {"malayalam": "Yellow", "transliteration": ""}
+      ],
       "correctAnswer": 1,
       "malayalam": "ചുവപ്പ്"
     },
     {
       "id": "day8-mcq-2",
       "question": "How do you say 'Green' in Malayalam?",
-      "options": ["നീല", "പച്ച", "മഞ്ഞ", "വെള്ള"],
+      "options": [
+        {"malayalam": "നീല", "transliteration": "nīla"},
+        {"malayalam": "പച്ച", "transliteration": "pacha"},
+        {"malayalam": "മഞ്ഞ", "transliteration": "mañña"},
+        {"malayalam": "വെള്ള", "transliteration": "veḷḷa"}
+      ],
       "correctAnswer": 1,
       "malayalam": "പച്ച"
     },
     {
       "id": "day8-mcq-3",
       "question": "What does 'കറുപ്പ്' mean?",
-      "options": ["White", "Black", "Red", "Blue"],
+      "options": [
+        {"malayalam": "White", "transliteration": ""},
+        {"malayalam": "Black", "transliteration": ""},
+        {"malayalam": "Red", "transliteration": ""},
+        {"malayalam": "Blue", "transliteration": ""}
+      ],
       "correctAnswer": 1,
       "malayalam": "കറുപ്പ്"
     },
     {
       "id": "day8-mcq-4",
       "question": "Which is a compound letter?",
-      "options": ["മ", "ക്ക", "ല", "വ"],
+      "options": [
+        {"malayalam": "മ", "transliteration": "ma"},
+        {"malayalam": "ക്ക", "transliteration": "kka"},
+        {"malayalam": "ല", "transliteration": "la"},
+        {"malayalam": "വ", "transliteration": "va"}
+      ],
       "correctAnswer": 1,
       "malayalam": "ക്ക"
     },
     {
       "id": "day8-mcq-5",
       "question": "How do you say 'I like blue'?",
-      "options": ["ഇത് നീല", "എനിക്ക് നീല ഇഷ്ടമാണ്", "നീല നിറം", "ചുവപ്പ് ഇഷ്ടം"],
+      "options": [
+        {"malayalam": "ഇത് നീല", "transliteration": "ithu nīla"},
+        {"malayalam": "എനിക്ക് നീല ഇഷ്ടമാണ്", "transliteration": "enikku nīla iṣṭamāṇ"},
+        {"malayalam": "നീല നിറം", "transliteration": "nīla niṟam"},
+        {"malayalam": "ചുവപ്പ് ഇഷ്ടം", "transliteration": "chuvappu iṣṭam"}
+      ],
       "correctAnswer": 1,
       "malayalam": "എനിക്ക് നീല ഇഷ്ടമാണ്"
     }

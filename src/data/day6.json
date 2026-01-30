@@ -107,35 +107,60 @@
     {
       "id": "day6-mcq-1",
       "question": "What is 'ഒന്ന്' in English?",
-      "options": ["One", "Two", "Three", "Four"],
+      "options": [
+        {"malayalam": "One", "transliteration": ""},
+        {"malayalam": "Two", "transliteration": ""},
+        {"malayalam": "Three", "transliteration": ""},
+        {"malayalam": "Four", "transliteration": ""}
+      ],
       "correctAnswer": 0,
       "malayalam": "ഒന്ന്"
     },
     {
       "id": "day6-mcq-2",
       "question": "How do you say 'Five' in Malayalam?",
-      "options": ["നാല്", "അഞ്ച്", "മൂന്ന്", "പത്ത്"],
+      "options": [
+        {"malayalam": "നാല്", "transliteration": "nāl"},
+        {"malayalam": "അഞ്ച്", "transliteration": "añchu"},
+        {"malayalam": "മൂന്ന്", "transliteration": "mūnn"},
+        {"malayalam": "പത്ത്", "transliteration": "pathth"}
+      ],
       "correctAnswer": 1,
       "malayalam": "അഞ്ച്"
     },
     {
       "id": "day6-mcq-3",
       "question": "What does 'എത്ര?' mean?",
-      "options": ["How many?", "What?", "Where?", "When?"],
+      "options": [
+        {"malayalam": "How many?", "transliteration": ""},
+        {"malayalam": "What?", "transliteration": ""},
+        {"malayalam": "Where?", "transliteration": ""},
+        {"malayalam": "When?", "transliteration": ""}
+      ],
       "correctAnswer": 0,
       "malayalam": "എത്ര?"
     },
     {
       "id": "day6-mcq-4",
       "question": "Which consonant sounds like 'ma'?",
-      "options": ["യ", "മ", "ര", "ല"],
+      "options": [
+        {"malayalam": "യ", "transliteration": "ya"},
+        {"malayalam": "മ", "transliteration": "ma"},
+        {"malayalam": "ര", "transliteration": "ra"},
+        {"malayalam": "ല", "transliteration": "la"}
+      ],
       "correctAnswer": 1,
       "malayalam": "മ"
     },
     {
       "id": "day6-mcq-5",
       "question": "How do you say 'I want two'?",
-      "options": ["എനിക്ക് ഒന്ന് വേണം", "എനിക്ക് രണ്ട് വേണം", "ഇത് എത്ര?", "പത്ത് വേണം"],
+      "options": [
+        {"malayalam": "എനിക്ക് ഒന്ന് വേണം", "transliteration": "enikku onn vēṇam"},
+        {"malayalam": "എനിക്ക് രണ്ട് വേണം", "transliteration": "enikku raṇṭ vēṇam"},
+        {"malayalam": "ഇത് എത്ര?", "transliteration": "ithu ethra?"},
+        {"malayalam": "പത്ത് വേണം", "transliteration": "pathth vēṇam"}
+      ],
       "correctAnswer": 1,
       "malayalam": "എനിക്ക് രണ്ട് വേണം"
     }

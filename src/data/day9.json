@@ -101,35 +101,60 @@
     {
       "id": "day9-mcq-1",
       "question": "What does 'ഇന്ന്' mean?",
-      "options": ["Yesterday", "Today", "Tomorrow", "Morning"],
+      "options": [
+        {"malayalam": "Yesterday", "transliteration": ""},
+        {"malayalam": "Today", "transliteration": ""},
+        {"malayalam": "Tomorrow", "transliteration": ""},
+        {"malayalam": "Morning", "transliteration": ""}
+      ],
       "correctAnswer": 1,
       "malayalam": "ഇന്ന്"
     },
     {
       "id": "day9-mcq-2",
       "question": "How do you say 'Tomorrow' in Malayalam?",
-      "options": ["ഇന്നലെ", "നാളെ", "രാവിലെ", "രാത്രി"],
+      "options": [
+        {"malayalam": "ഇന്നലെ", "transliteration": "innale"},
+        {"malayalam": "നാളെ", "transliteration": "nāḷe"},
+        {"malayalam": "രാവിലെ", "transliteration": "rāvile"},
+        {"malayalam": "രാത്രി", "transliteration": "rātri"}
+      ],
       "correctAnswer": 1,
       "malayalam": "നാളെ"
     },
     {
       "id": "day9-mcq-3",
       "question": "What is 'രാവിലെ'?",
-      "options": ["Night", "Morning", "Evening", "Afternoon"],
+      "options": [
+        {"malayalam": "Night", "transliteration": ""},
+        {"malayalam": "Morning", "transliteration": ""},
+        {"malayalam": "Evening", "transliteration": ""},
+        {"malayalam": "Afternoon", "transliteration": ""}
+      ],
       "correctAnswer": 1,
       "malayalam": "രാവിലെ"
     },
     {
       "id": "day9-mcq-4",
       "question": "Which is a compound letter?",
-      "options": ["മ", "ല്ല", "സ", "ഹ"],
+      "options": [
+        {"malayalam": "മ", "transliteration": "ma"},
+        {"malayalam": "ല്ല", "transliteration": "lla"},
+        {"malayalam": "സ", "transliteration": "sa"},
+        {"malayalam": "ഹ", "transliteration": "ha"}
+      ],
       "correctAnswer": 1,
       "malayalam": "ല്ല"
     },
     {
       "id": "day9-mcq-5",
       "question": "How do you say 'See you tomorrow'?",
-      "options": ["ഇന്ന് കാണാം", "നാളെ കാണാം", "ഇന്നലെ കണ്ടു", "രാവിലെ കാണാം"],
+      "options": [
+        {"malayalam": "ഇന്ന് കാണാം", "transliteration": "inn kāṇām"},
+        {"malayalam": "നാളെ കാണാം", "transliteration": "nāḷe kāṇām"},
+        {"malayalam": "ഇന്നലെ കണ്ടു", "transliteration": "innale kaṇṭu"},
+        {"malayalam": "രാവിലെ കാണാം", "transliteration": "rāvile kāṇām"}
+      ],
       "correctAnswer": 1,
       "malayalam": "നാളെ കാണാം"
     }

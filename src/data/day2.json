@@ -89,28 +89,48 @@
     {
       "id": "day2-mcq-1",
       "question": "What is 'Good morning' in Malayalam?",
-      "options": ["ശുഭരാത്രി", "സുപ്രഭാതം", "നമസ്കാരം", "വിട"],
+      "options": [
+        {"malayalam": "ശുഭരാത്രി", "transliteration": "śubharātri"},
+        {"malayalam": "സുപ്രഭാതം", "transliteration": "suprabhātam"},
+        {"malayalam": "നമസ്കാരം", "transliteration": "namaskāram"},
+        {"malayalam": "വിട", "transliteration": "viṭa"}
+      ],
       "correctAnswer": 1,
       "malayalam": "സുപ്രഭാതം"
     },
     {
       "id": "day2-mcq-2",
       "question": "Which vowel sounds like 'oo' in 'food'?",
-      "options": ["ഉ", "ഊ", "എ", "ഏ"],
+      "options": [
+        {"malayalam": "ഉ", "transliteration": "u"},
+        {"malayalam": "ഊ", "transliteration": "ū"},
+        {"malayalam": "എ", "transliteration": "e"},
+        {"malayalam": "ഏ", "transliteration": "ē"}
+      ],
       "correctAnswer": 1,
       "malayalam": "ഊ"
     },
     {
       "id": "day2-mcq-3",
       "question": "What does 'വിട' mean?",
-      "options": ["Good morning", "Good night", "Goodbye", "Hello"],
+      "options": [
+        {"malayalam": "Good morning", "transliteration": ""},
+        {"malayalam": "Good night", "transliteration": ""},
+        {"malayalam": "Goodbye", "transliteration": ""},
+        {"malayalam": "Hello", "transliteration": ""}
+      ],
       "correctAnswer": 2,
       "malayalam": "വിട"
     },
     {
       "id": "day2-mcq-4",
       "question": "How do you say 'I am also fine'?",
-      "options": ["എനിക്ക് സുഖമാണ്", "എനിക്കും സുഖമാണ്", "സുഖമാണോ?", "നന്ദി"],
+      "options": [
+        {"malayalam": "എനിക്ക് സുഖമാണ്", "transliteration": "enikku sukhamāṇ"},
+        {"malayalam": "എനിക്കും സുഖമാണ്", "transliteration": "enikkum sukhamāṇ"},
+        {"malayalam": "സുഖമാണോ?", "transliteration": "sukhamāṇo?"},
+        {"malayalam": "നന്ദി", "transliteration": "nandi"}
+      ],
       "correctAnswer": 1,
       "malayalam": "എനിക്കും സുഖമാണ്"
     }

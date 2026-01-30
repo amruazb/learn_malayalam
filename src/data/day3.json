@@ -113,28 +113,48 @@
     {
       "id": "day3-mcq-1",
       "question": "What is the pronoun for 'I' in Malayalam?",
-      "options": ["നീ", "ഞാൻ", "അവൻ", "നിങ്ങൾ"],
+      "options": [
+        {"malayalam": "നീ", "transliteration": "nī"},
+        {"malayalam": "ഞാൻ", "transliteration": "ñān"},
+        {"malayalam": "അവൻ", "transliteration": "avan"},
+        {"malayalam": "നിങ്ങൾ", "transliteration": "niṅṅaḷ"}
+      ],
       "correctAnswer": 1,
       "malayalam": "ഞാൻ"
     },
     {
       "id": "day3-mcq-2",
       "question": "Which consonant sounds like 'ka'?",
-      "options": ["ഗ", "ച", "ക", "ജ"],
+      "options": [
+        {"malayalam": "ഗ", "transliteration": "ga"},
+        {"malayalam": "ച", "transliteration": "cha"},
+        {"malayalam": "ക", "transliteration": "ka"},
+        {"malayalam": "ജ", "transliteration": "ja"}
+      ],
       "correctAnswer": 2,
       "malayalam": "ക"
     },
     {
       "id": "day3-mcq-3",
       "question": "What does 'നിങ്ങൾ' mean?",
-      "options": ["I", "You (casual)", "You (formal)", "He"],
+      "options": [
+        {"malayalam": "I", "transliteration": ""},
+        {"malayalam": "You (casual)", "transliteration": ""},
+        {"malayalam": "You (formal)", "transliteration": ""},
+        {"malayalam": "He", "transliteration": ""}
+      ],
       "correctAnswer": 2,
       "malayalam": "നിങ്ങൾ"
     },
     {
       "id": "day3-mcq-4",
       "question": "How do you say 'I am a student'?",
-      "options": ["നീ എവിടെയാണ്?", "ഞാൻ വിദ്യാർത്ഥിയാണ്", "അവൻ വിദ്യാർത്ഥിയാണ്", "എനിക്ക് സുഖമാണ്"],
+      "options": [
+        {"malayalam": "നീ എവിടെയാണ്?", "transliteration": "nī eviṭeyāṇ?"},
+        {"malayalam": "ഞാൻ വിദ്യാർത്ഥിയാണ്", "transliteration": "ñān vidyārthiyāṇ"},
+        {"malayalam": "അവൻ വിദ്യാർത്ഥിയാണ്", "transliteration": "avan vidyārthiyāṇ"},
+        {"malayalam": "എനിക്ക് സുഖമാണ്", "transliteration": "enikku sukhamāṇ"}
+      ],
       "correctAnswer": 1,
       "malayalam": "ഞാൻ വിദ്യാർത്ഥിയാണ്"
     }

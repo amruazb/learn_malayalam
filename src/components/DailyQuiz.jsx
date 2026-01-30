@@ -144,7 +144,7 @@ function DailyQuiz({ onComplete }) {
                 <div className="option-content">
                   <span className="option-text malayalam-text">{malayalamText}</span>
                   {transliteration && (
-                    <span className="option-transliteration">({transliteration})</span>
+                    <span className="option-transliteration">Read as: {transliteration}</span>
                   )}
                 </div>
               </button>

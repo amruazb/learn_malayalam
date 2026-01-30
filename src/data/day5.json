@@ -107,35 +107,60 @@
     {
       "id": "day5-mcq-1",
       "question": "What does 'ദയവായി' mean?",
-      "options": ["Sorry", "Please", "Thank you", "Understood"],
+      "options": [
+        {"malayalam": "Sorry", "transliteration": ""},
+        {"malayalam": "Please", "transliteration": ""},
+        {"malayalam": "Thank you", "transliteration": ""},
+        {"malayalam": "Understood", "transliteration": ""}
+      ],
       "correctAnswer": 1,
       "malayalam": "ദയവായി"
     },
     {
       "id": "day5-mcq-2",
       "question": "Which is a chillu letter?",
-      "options": ["പ", "ബ", "ൻ", "ന"],
+      "options": [
+        {"malayalam": "പ", "transliteration": "pa"},
+        {"malayalam": "ബ", "transliteration": "ba"},
+        {"malayalam": "ൻ", "transliteration": "n"},
+        {"malayalam": "ന", "transliteration": "na"}
+      ],
       "correctAnswer": 2,
       "malayalam": "ൻ"
     },
     {
       "id": "day5-mcq-3",
       "question": "How do you say 'I didn't understand'?",
-      "options": ["മനസ്സിലായി", "എനിക്ക് മനസ്സിലായില്ല", "സഹായിക്കാമോ?", "ക്ഷമിക്കണം"],
+      "options": [
+        {"malayalam": "മനസ്സിലായി", "transliteration": "manassilāyi"},
+        {"malayalam": "എനിക്ക് മനസ്സിലായില്ല", "transliteration": "enikku manassilāyilla"},
+        {"malayalam": "സഹായിക്കാമോ?", "transliteration": "sahāyikkāmo?"},
+        {"malayalam": "ക്ഷമിക്കണം", "transliteration": "kṣamikkaṇam"}
+      ],
       "correctAnswer": 1,
       "malayalam": "എനിക്ക് മനസ്സിലായില്ല"
     },
     {
       "id": "day5-mcq-4",
       "question": "What does 'ക്ഷമിക്കണം' mean?",
-      "options": ["Please", "Sorry / Excuse me", "Thank you", "Help"],
+      "options": [
+        {"malayalam": "Please", "transliteration": ""},
+        {"malayalam": "Sorry / Excuse me", "transliteration": ""},
+        {"malayalam": "Thank you", "transliteration": ""},
+        {"malayalam": "Help", "transliteration": ""}
+      ],
       "correctAnswer": 1,
       "malayalam": "ക്ഷമിക്കണം"
     },
     {
       "id": "day5-mcq-5",
       "question": "Which consonant sounds like 'pa'?",
-      "options": ["ബ", "പ", "ഫ", "ധ"],
+      "options": [
+        {"malayalam": "ബ", "transliteration": "ba"},
+        {"malayalam": "പ", "transliteration": "pa"},
+        {"malayalam": "ഫ", "transliteration": "pha"},
+        {"malayalam": "ധ", "transliteration": "dha"}
+      ],
       "correctAnswer": 1,
       "malayalam": "പ"
     }
